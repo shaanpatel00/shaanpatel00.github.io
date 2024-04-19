@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Shaan Patel Portfolio",
     type: "website",
-    url: "http://ashutoshhathidarcda.com/",
+    url: "http://shaanpatel00.github.io/",
   },
 };
 
@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Passionate computer engineering student seeking to refine skills in 3D animation & modeling, computer science, and computer engineering at a like-minded company.",
   resumeLink:
-    "https://drive.google.com/file/d/198NhOlwD077AwZP6cL9caR_ThOsE0zvg/view?usp=sharing",
+    "https://drive.google.com/file/d/1GKDHypfGe2ybGR4Z7wIWyfVK17qdYckL/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/shaanpatel00",
 };
@@ -97,51 +97,54 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Cryptocurrency Mining and Trading",
-      fileName: "DataScienceImg",
+      title: "3D Modeling and Graphic Design",
+      fileName: "DesignImg",
       skills: [
-        "◈ Building and setting up mining rigs for Ethereum, Bitcoin, and other cryptocurrencies",
-        "◈ Experience with trading on Exodus, Coinbase, Metamask and other exchanges",
-        "◈ Knowledge of blockchain technology and smart contracts",
+        "◈ Designing and texturing 3D models with custom HDRI maps and prodecual textures",
+        "◈ Customizing vector logo designs and building logos from scratch",
+        "◈ Produced high-quality renders and animations for product visualization and marketing",
+        "◈ Experience designing 3D models for 3D printing and CNC machining, along with vector designs for laser cutting and engraving",
       ],
       softwareSkills: [
         {
-          skillName: "Metamask",
-          fontAwesomeClassname: "logos-metamask-icon",
-          style: {
-            backgroundColor: "transparent",
-          },
+          skillName: "Adobe Premiere Pro",
+          fontAwesomeClassname: "logos:adobe-premiere",
         },
         {
-          skillName: "Coinbase",
-          fontAwesomeClassname: "arcticons:coinbase",
-          style: {
-            backgroundColor: "transparent",
-            color: "#0052ff",
-          },
+          skillName: "Adobe Illustrator",
+          fontAwesomeClassname: "logos:adobe-illustrator",
         },
         {
-          skillName: "Exodus",
-          fontAwesomeClassname: "arcticons:exodus",
+          skillName: "Adobe After Effects",
+          fontAwesomeClassname: "logos:adobe-after-effects",
+        },
+        {
+          skillName: "Inkscape",
+          fontAwesomeClassname: "simple-icons:inkscape",
           style: {
-            backgroundColor: "transparent",
             color: "#000000",
           },
         },
         {
-          skillName: "Ethereum",
-          fontAwesomeClassname: "mdi:ethereum",
+          skillName: "Adobe Animate",
+          fontAwesomeClassname: "logos:adobe-animate",
+        },
+        {
+          skillName: "Blender",
+          fontAwesomeClassname: "logos:blender",
+        },
+        {
+          skillName: "Unity",
+          fontAwesomeClassname: "logos:unity",
           style: {
-            backgroundColor: "transparent",
-            color: "#62688f",
+            color: "#222c37",
           },
         },
         {
-          skillName: "Bitcoin",
-          fontAwesomeClassname: "mdi:bitcoin",
+          skillName: "Decentraland",
+          fontAwesomeClassname: "simple-icons:decentraland",
           style: {
-            backgroundColor: "transparent",
-            color: "#f7931a",
+            color: "#333333",
           },
         },
       ],
@@ -298,54 +301,51 @@ const skills = {
       ],
     },
     {
-      title: "3D Modeling and Graphic Design",
-      fileName: "DesignImg",
+      title: "Cryptocurrency Mining and Trading",
+      fileName: "DataScienceImg",
       skills: [
-        "◈ Designing and texturing 3D models with custom HDRI maps and prodecual textures",
-        "◈ Customizing vector logo designs and building logos from scratch",
-        "◈ Produced high-quality renders and animations for product visualization and marketing",
-        "◈ Experience designing 3D models for 3D printing and CNC machining, along with vector designs for laser cutting and engraving",
+        "◈ Building and setting up mining rigs for Ethereum, Bitcoin, and other cryptocurrencies",
+        "◈ Experience with trading on Exodus, Coinbase, Metamask and other exchanges",
+        "◈ Knowledge of blockchain technology and smart contracts",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe Premiere Pro",
-          fontAwesomeClassname: "logos:adobe-premiere",
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "logos:adobe-illustrator",
-        },
-        {
-          skillName: "Adobe After Effects",
-          fontAwesomeClassname: "logos:adobe-after-effects",
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "Metamask",
+          fontAwesomeClassname: "logos-metamask-icon",
           style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Coinbase",
+          fontAwesomeClassname: "arcticons:coinbase",
+          style: {
+            backgroundColor: "transparent",
+            color: "#0052ff",
+          },
+        },
+        {
+          skillName: "Exodus",
+          fontAwesomeClassname: "arcticons:exodus",
+          style: {
+            backgroundColor: "transparent",
             color: "#000000",
           },
         },
         {
-          skillName: "Adobe Animate",
-          fontAwesomeClassname: "logos:adobe-animate",
-        },
-        {
-          skillName: "Blender",
-          fontAwesomeClassname: "logos:blender",
-        },
-        {
-          skillName: "Unity",
-          fontAwesomeClassname: "logos:unity",
+          skillName: "Ethereum",
+          fontAwesomeClassname: "mdi:ethereum",
           style: {
-            color: "#222c37",
+            backgroundColor: "transparent",
+            color: "#62688f",
           },
         },
         {
-          skillName: "Decentraland",
-          fontAwesomeClassname: "simple-icons:decentraland",
+          skillName: "Bitcoin",
+          fontAwesomeClassname: "mdi:bitcoin",
           style: {
-            color: "#333333",
+            backgroundColor: "transparent",
+            color: "#f7931a",
           },
         },
       ],
