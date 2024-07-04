@@ -462,6 +462,15 @@ const certifications = {
       alt_name: "Certiport Autodesk",
       color_code: "#770829",
     },
+    {
+      title: "CompTIA ITF+",
+      subtitle: "- CompTIA",
+      logo_path: "comptia_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1_8ClEWEcJbIwBUxdRAVLRDcHZKwkg_rN/view",
+      alt_name: "CompTIA",
+      color_code: "#e22726",
+    },
     /**
     {
       title: "Deep Learning",
