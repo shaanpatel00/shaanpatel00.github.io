@@ -458,10 +458,10 @@ const certifications = {
       subtitle: "- Certiport",
       logo_path: "autodesk_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/10fRWc0thGEUoKyFzOz87ZVUky1mlHpoO/view?usp=drive_link",
+        "https://drive.google.com/file/d/10fRWc0thGEUoKyFzOz87ZVUky1mlHpoO/view",
       alt_name: "Autodesk",
       color_code: "#770829",
-    }
+    },
     /**
     {
       title: "Deep Learning",
