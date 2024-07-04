@@ -51,6 +51,9 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
