@@ -453,15 +453,6 @@ const certifications = {
       alt_name: "Massachusetts Institute of Technology",
       color_code: "#750014",
     },
-    {
-      title: "AutoCAD",
-      subtitle: "- Certiport",
-      logo_path: "autodesk_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/10fRWc0thGEUoKyFzOz87ZVUky1mlHpoO/view",
-      alt_name: "Autodesk",
-      color_code: "#770829",
-    },
     /**
     {
       title: "Deep Learning",
