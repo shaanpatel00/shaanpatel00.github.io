@@ -456,7 +456,7 @@ const certifications = {
     {
       title: "AutoCAD",
       subtitle: "- Certiport",
-      logo_path: "autodesk_logo.png",
+      logo_path: "autocad_logo.png",
       certificate_link:
         "https://drive.google.com/file/d/10fRWc0thGEUoKyFzOz87ZVUky1mlHpoO/view",
       alt_name: "Certiport Autodesk",
