@@ -3,8 +3,8 @@ name: Build and Deploy to GitHub Pages
 on:
   workflow_dispatch:
 
-#permissions:
-# contents: write  # Grant write permission to the contents of the repository
+permissions:
+  contents: write  # Grant write permission to the contents of the repository
 
 jobs:
   build:
