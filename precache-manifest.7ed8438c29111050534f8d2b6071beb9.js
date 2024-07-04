@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37889101c16b022d62c8332337561837",
+    "revision": "517e3a5e3c719477325a25989186e30f",
     "url": "./index.html"
   },
   {
-    "revision": "469b979c9ad91e564438",
+    "revision": "8cc91cd424fc287f6024",
     "url": "./static/css/main.5abd4ed6.chunk.css"
   },
   {
-    "revision": "76afa55df520a27b039e",
-    "url": "./static/js/2.f91c4319.chunk.js"
+    "revision": "e24842d9856ecb704037",
+    "url": "./static/js/2.eda17114.chunk.js"
   },
   {
-    "revision": "469b979c9ad91e564438",
-    "url": "./static/js/main.1e07d778.chunk.js"
+    "revision": "8cc91cd424fc287f6024",
+    "url": "./static/js/main.d4f181db.chunk.js"
   },
   {
     "revision": "bfba2a34f9928e5e0d9c",
@@ -65,7 +65,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "1e0282bf2330ce2b1e38c97ed87d2b0d",
-    "url": "./static/media/autocad-logo.1e0282bf.png"
+    "url": "./static/media/autocad_logo.1e0282bf.png"
   },
   {
     "revision": "058eca4cbdc03a1dad9a6bb943ac7831",
@@ -78,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee92c18b1cfbd1faa704c51047f113d",
     "url": "./static/media/codeInLogo.fee92c18.png"
+  },
+  {
+    "revision": "4db55fbd6245715f7cbb8b37a2334ca5",
+    "url": "./static/media/comptia_logo.4db55fbd.png"
   },
   {
     "revision": "5f915405511f649dad433a6db9adbff4",
