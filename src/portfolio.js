@@ -55,7 +55,7 @@ const socialMediaLinks = [
   {
     name: "Resume",
     link: "https://drive.google.com/file/d/1GKDHypfGe2ybGR4Z7wIWyfVK17qdYckL/view?usp=sharing",
-    fontAwesomeIcon: "far fa-file", // Reference https://fontawesome.com/icons/youtube?style=brands
+    fontAwesomeIcon: "fas fa-file", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#1A8300", // Reference https://simpleicons.org/?q=youtube
   },
   {
