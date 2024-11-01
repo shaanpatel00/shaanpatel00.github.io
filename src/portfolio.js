@@ -53,16 +53,16 @@ const socialMediaLinks = [
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "Resume",
-    link: "https://drive.google.com/file/d/1GKDHypfGe2ybGR4Z7wIWyfVK17qdYckL/view?usp=sharing",
-    fontAwesomeIcon: "fas fa-file", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#1A8300", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
     link: "mailto:shaanpatel00@gmail.com",
     fontAwesomeIcon: "far fa-envelope", //Reference https://fontawesome.com/icons/envelope?f=classic&s=solid
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  },
+  {
+    name: "Resume",
+    link: "https://drive.google.com/file/d/1GKDHypfGe2ybGR4Z7wIWyfVK17qdYckL/view?usp=sharing",
+    fontAwesomeIcon: "fas fa-file", // Reference https://fontawesome.com/icons/youtube?style=brands
+    backgroundColor: "#1A8300", // Reference https://simpleicons.org/?q=youtube
   },
   /*
   {
