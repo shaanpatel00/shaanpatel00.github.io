@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Passionate computer engineering student seeking to refine skills in 3D animation & modeling, computer science, and computer engineering at a like-minded company.",
   resumeLink:
-    "https://drive.google.com/file/d/1GKDHypfGe2ybGR4Z7wIWyfVK17qdYckL/view?usp=sharing",
+    "https://drive.google.com/file/d/1sIdqMjhrTXFu7Y5YKQoyttzcmW1H6ZFB/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/shaanpatel00",
 };
@@ -60,7 +60,7 @@ const socialMediaLinks = [
   },
   {
     name: "Resume",
-    link: "https://drive.google.com/file/d/1GKDHypfGe2ybGR4Z7wIWyfVK17qdYckL/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1sIdqMjhrTXFu7Y5YKQoyttzcmW1H6ZFB/view?usp=sharing",
     fontAwesomeIcon: "fas fa-file", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#1A8300", // Reference https://simpleicons.org/?q=youtube
   },
