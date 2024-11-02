@@ -6,6 +6,7 @@ on:
 permissions:
   id-token: write  # This grants the necessary id-token permission
   contents: read   # This is the default permission for reading repo contents
+  pages: write     # This grants the necessary pages permission
   
 jobs:
   build:
