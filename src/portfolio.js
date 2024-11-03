@@ -678,18 +678,18 @@ const experience = {
     {
       title: "Volunteerships",
       experiences: [
-        /**
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          title: "Georgia Tech HIVE Makerspace Student Leader",
+          company: "Georgia Tech HIVE Makerspace",
+          company_url: "https://hive.ece.gatech.edu/",
+          logo_path: "hive_logo.png",
+          duration: "August 2024 - Present",
+          location: "Atlanta, Georgia",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
+            "Instruct end users in designing and slicing 3D models, embroidering and sewing fabrics, analyzing circuits with oscilloscopes, and creating and cutting vector files on a Fablight laser cutter.",
+          color: "#fee600",
         },
+        /**
         {
           title: "Microsoft Student Partner",
           company: "Microsoft",
