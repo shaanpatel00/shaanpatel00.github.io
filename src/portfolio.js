@@ -416,9 +416,9 @@ const degrees = {
       alt_name: "Georgia Tech",
       duration: "2023 - Present",
       descriptions: [
-        "◈ I am currently a first-year student at Georgia Tech pursuing a degree in Computer Engineering.",
-        "◈ As of now, I have a solid understanding of object oriented programming, linear algebra, discrete mathematics, and digital system design.",
-        "◈ I am also learning about data structures, algorithms, and computer organization.",
+        "◈ I am currently a second-year student at Georgia Tech pursuing a degree in Computer Engineering.",
+        "◈ As of now, I have a solid understanding of object oriented programming, data structures and algorithms, programming hardware systems, and digital system design.",
+        "◈ I am also learning about VLSI, algorithms, and computer organization.",
       ],
       website_link: "https://gatech.edu",
     },
