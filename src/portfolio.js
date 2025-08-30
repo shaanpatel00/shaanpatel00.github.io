@@ -95,6 +95,109 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
+      title: "Hardware and Embedded Systems",
+      fileName: "VisionaryTechImg",
+      skills: [
+        "◈ Worked with various microcontrollers such as the ESP32, ESP8266, Arduino, MBED, Raspberry Pi, and more",
+        "◈ Built both hardware and software solutions for a custom Internet-of-Things (IoT) device",
+        "◈ Knowledge of core languages such as C, C++, Python, Verilog, VHDL, MIPS, RISC-V, and more",
+        "◈ Experience building peripherals from scratch and incorporating them with an Intel Altera FPGA",
+        "◈ Layout, design, and manually fabricate various PCBs using KiCad and Altium along with electroplating and laser cutting technologies",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Metamask",
+          fontAwesomeClassname: "logos-metamask-icon",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Coinbase",
+          fontAwesomeClassname: "arcticons:coinbase",
+          style: {
+            backgroundColor: "transparent",
+            color: "#0052ff",
+          },
+        },
+        {
+          skillName: "Exodus",
+          fontAwesomeClassname: "arcticons:exodus",
+          style: {
+            backgroundColor: "transparent",
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Ethereum",
+          fontAwesomeClassname: "mdi:ethereum",
+          style: {
+            backgroundColor: "transparent",
+            color: "#62688f",
+          },
+        },
+        {
+          skillName: "Bitcoin",
+          fontAwesomeClassname: "mdi:bitcoin",
+          style: {
+            backgroundColor: "transparent",
+            color: "#f7931a",
+          },
+        },
+      ],
+    },
+    {
+      title: "Cryptocurrency Mining and Trading",
+      fileName: "DataScienceImg",
+      skills: [
+        "◈ Designed and built two 2.5kW parallel computing systems from the component level, integrating a mixed array of twelve 12GB GDDR6 AMD and NVIDIA GPUs",
+        "◈ Building and setting up mining rigs for Ethereum, Bitcoin, and other cryptocurrencies",
+        "◈ Experience with trading on Exodus, Coinbase, Metamask and other exchanges",
+        "◈ In-depth knowledge of blockchain protocols and smart contracts used to mine cryptocurrencies",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Metamask",
+          fontAwesomeClassname: "logos-metamask-icon",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Coinbase",
+          fontAwesomeClassname: "arcticons:coinbase",
+          style: {
+            backgroundColor: "transparent",
+            color: "#0052ff",
+          },
+        },
+        {
+          skillName: "Exodus",
+          fontAwesomeClassname: "arcticons:exodus",
+          style: {
+            backgroundColor: "transparent",
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Ethereum",
+          fontAwesomeClassname: "mdi:ethereum",
+          style: {
+            backgroundColor: "transparent",
+            color: "#62688f",
+          },
+        },
+        {
+          skillName: "Bitcoin",
+          fontAwesomeClassname: "mdi:bitcoin",
+          style: {
+            backgroundColor: "transparent",
+            color: "#f7931a",
+          },
+        },
+      ],
+    },
+    {
       title: "3D Modeling and Graphic Design",
       fileName: "DesignImg",
       skills: [
@@ -152,7 +255,7 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "◈ Worked in a professional laboratory setting with international researchers in South Korea",
-        "◈ Completed 90 trials in my recent project and awarded the Yale Outstanding Project award",
+        "◈ Completed 150 trials in my recent project and awarded the Yale Outstanding Project award",
         "◈ Developed professional communication skills, tensile testing skills, and data analysis skills",
       ],
       softwareSkills: [
@@ -296,56 +399,6 @@ const skills = {
           },
         },
         */
-      ],
-    },
-    {
-      title: "Cryptocurrency Mining and Trading",
-      fileName: "DataScienceImg",
-      skills: [
-        "◈ Building and setting up mining rigs for Ethereum, Bitcoin, and other cryptocurrencies",
-        "◈ Experience with trading on Exodus, Coinbase, Metamask and other exchanges",
-        "◈ Knowledge of blockchain technology and smart contracts",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Metamask",
-          fontAwesomeClassname: "logos-metamask-icon",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Coinbase",
-          fontAwesomeClassname: "arcticons:coinbase",
-          style: {
-            backgroundColor: "transparent",
-            color: "#0052ff",
-          },
-        },
-        {
-          skillName: "Exodus",
-          fontAwesomeClassname: "arcticons:exodus",
-          style: {
-            backgroundColor: "transparent",
-            color: "#000000",
-          },
-        },
-        {
-          skillName: "Ethereum",
-          fontAwesomeClassname: "mdi:ethereum",
-          style: {
-            backgroundColor: "transparent",
-            color: "#62688f",
-          },
-        },
-        {
-          skillName: "Bitcoin",
-          fontAwesomeClassname: "mdi:bitcoin",
-          style: {
-            backgroundColor: "transparent",
-            color: "#f7931a",
-          },
-        },
       ],
     },
   ],
