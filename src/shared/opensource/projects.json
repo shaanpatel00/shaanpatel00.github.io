@@ -30,6 +30,15 @@
           "iconifyClass": "logos-javascript"
         }
       ]
+    },
+    {
+      "id": "R_kgDOPFMGqQ",
+      "name": "fiber-optic-display-ESP32",
+      "createdAt": "2025-07-01T19:12:43Z",
+      "url": "https://github.com/shaanpatel00/fiber-optic-display-ESP32",
+      "description": "A custom IoT device based on the ESP32 microcontroller that illuminates a fiber optic display.",
+      "isFork": false,
+      "languages": []
     }
   ]
 }
