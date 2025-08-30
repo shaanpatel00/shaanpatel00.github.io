@@ -128,22 +128,6 @@ const skills = {
           },
         },
         {
-          skillName: "VHDL",
-          fontAwesomeClassname: "mdi:chip",
-          style: {
-            backgroundColor: "transparent",
-            color: "#000000",
-          },
-        },
-        {
-          skillName: "MIPS",
-          fontAwesomeClassname: "simple-icons:mips",
-          style: {
-            backgroundColor: "transparent",
-            color: "#00447C",
-          },
-        },
-        {
           skillName: "RISC-V",
           fontAwesomeClassname: "simple-icons:riscv",
           style: {
@@ -492,9 +476,9 @@ const degrees = {
       alt_name: "Georgia Tech",
       duration: "2023 - Present",
       descriptions: [
-        "◈ I am currently a second-year student at Georgia Tech pursuing a degree in Computer Engineering.",
-        "◈ As of now, I have a solid understanding of object oriented programming, data structures and algorithms, programming hardware systems, and digital system design.",
-        "◈ I am also learning about VLSI, algorithms, and computer organization.",
+        "◈ I am currently a third-year student at Georgia Tech pursuing a degree in Computer Engineering.",
+        "◈ As of now, I have a solid understanding of data structures and algorithms, the interfaces between hardware and software through assembly and VHDL, and microarchitecture and ISA design.",
+        "◈ I am also learning about VLSI, semiconductor fabrication, and CUDA programming.",
       ],
       website_link: "https://gatech.edu",
     },
@@ -762,7 +746,7 @@ const experience = {
           duration: "August 2024 - Present",
           location: "Atlanta, Georgia",
           description:
-            "Instruct end users in designing and slicing 3D models, embroidering and sewing fabrics, analyzing circuits with oscilloscopes, and creating and cutting vector files on a Fablight laser cutter.",
+            "As a Student Leader and Peer Instructor at the Georgia Tech HIVE Makerspace, my role combines technical development with mentorship. I instruct approximately 40 students each week on advanced design and fabrication workflows, including 3D CAD, circuit analysis with oscilloscopes, and laser cutter operation. To increase engagement, I facilitate workshops and create training materials, which have helped boost student participation by 20%. My development work includes creating a print manager to automate jobs and improve the uptime of the 12-unit 3D print farm. I am also architecting a full-stack inventory system using an AWS RDS backend to track materials and enable a student electronics rental program, with the goal of reducing annual costs for students.",
           color: "#fee600",
         },
         /**
