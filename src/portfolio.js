@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Shaans's Portfolio",
   description:
-    "Passionate computer engineering student seeking to refine skills in 3D animation & modeling, computer science, and computer engineering at a like-minded company.",
+    "Passionate computer engineering student seeking to refine skills in embedded systems design, semiconductor technology, and PCB layout while making a lasting impact on bridging the gap between digital design and real-world application.",
   og: {
     title: "Shaan Patel Portfolio",
     type: "website",
