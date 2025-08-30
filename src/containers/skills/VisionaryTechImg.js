@@ -8,13 +8,9 @@ export default class VisionaryTechImg extends Component {
    width="744.184"
    height="800.076"
    viewBox="0 0 744.184 800.076"
-   role="img"
-   artist="Katerina Limpitsouni"
-   source="https://undraw.co/"
-   version="1.1"
    id="svg50"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   >
   <defs
      id="defs50" />
   <path
