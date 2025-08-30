@@ -805,7 +805,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools including 3D modeling software, sotfware design, computer engineering, and more. My best projects are listed below.",
+    "My projects makes use of vast variety of latest technology tools including PCB design, 3D modeling software, embedded systems, and more. My best projects are listed below.",
   avatar_image_path: "projects_image.svg",
 };
 

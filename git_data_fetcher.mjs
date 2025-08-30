@@ -1,5 +1,5 @@
 import fetch from "node-fetch";
-import fs from "fs";
+import fs from "fs/promises";
 import dotenv from "dotenv";
 
 dotenv.config();
@@ -133,118 +133,6 @@ const headers = {
   Authorization: "bearer " + openSource.githubConvertedToken,
 };
 
-fetch(baseUrl, {
-  method: "POST",
-  headers: headers,
-  body: JSON.stringify(query_pr),
-})
-  .then((response) => response.text())
-  .then((txt) => {
-    const data = JSON.parse(txt);
-    var cropped = { data: [] };
-    cropped["data"] = data["data"]["user"]["pullRequests"]["nodes"];
-
-    var open = 0;
-    var closed = 0;
-    var merged = 0;
-    for (var i = 0; i < cropped["data"].length; i++) {
-      if (cropped["data"][i]["state"] === "OPEN") open++;
-      else if (cropped["data"][i]["state"] === "MERGED") merged++;
-      else closed++;
-    }
-
-    cropped["open"] = open;
-    cropped["closed"] = closed;
-    cropped["merged"] = merged;
-    cropped["totalCount"] = cropped["data"].length;
-
-    console.log("Fetching the Pull Request Data.\n");
-    fs.writeFile(
-      "./src/shared/opensource/pull_requests.json",
-      JSON.stringify(cropped),
-      function (err) {
-        if (err) {
-          console.log(err);
-        }
-      }
-    );
-  })
-  .catch((error) => console.log(JSON.stringify(error)));
-
-fetch(baseUrl, {
-  method: "POST",
-  headers: headers,
-  body: JSON.stringify(query_issue),
-})
-  .then((response) => response.text())
-  .then((txt) => {
-    const data = JSON.parse(txt);
-    var cropped = { data: [] };
-    cropped["data"] = data["data"]["user"]["issues"]["nodes"];
-
-    var open = 0;
-    var closed = 0;
-    for (var i = 0; i < cropped["data"].length; i++) {
-      if (cropped["data"][i]["closed"] === false) open++;
-      else closed++;
-    }
-
-    cropped["open"] = open;
-    cropped["closed"] = closed;
-    cropped["totalCount"] = cropped["data"].length;
-
-    console.log("Fetching the Issues Data.\n");
-    fs.writeFile(
-      "./src/shared/opensource/issues.json",
-      JSON.stringify(cropped),
-      function (err) {
-        if (err) {
-          console.log(err);
-        }
-      }
-    );
-  })
-  .catch((error) => console.log(JSON.stringify(error)));
-
-fetch(baseUrl, {
-  method: "POST",
-  headers: headers,
-  body: JSON.stringify(query_org),
-})
-  .then((response) => response.text())
-  .then((txt) => {
-    const data = JSON.parse(txt);
-    const orgs = data["data"]["user"]["repositoriesContributedTo"]["nodes"];
-    var newOrgs = { data: [] };
-    for (var i = 0; i < orgs.length; i++) {
-      var obj = orgs[i]["owner"];
-      if (obj["__typename"] === "Organization") {
-        var flag = 0;
-        for (var j = 0; j < newOrgs["data"].length; j++) {
-          if (JSON.stringify(obj) === JSON.stringify(newOrgs["data"][j])) {
-            flag = 1;
-            break;
-          }
-        }
-        if (flag === 0) {
-          newOrgs["data"].push(obj);
-        }
-      }
-    }
-
-    console.log("Fetching the Contributed Organization Data.\n");
-    fs.writeFile(
-      "./src/shared/opensource/organizations.json",
-      JSON.stringify(newOrgs),
-      function (err) {
-        if (err) {
-          console.log(err);
-        }
-      }
-    );
-  })
-  .catch((error) => console.log(JSON.stringify(error)));
-
 const languages_icons = {
   Python: "logos-python",
   "Jupyter Notebook": "logos-jupyter",
@@ -259,48 +147,192 @@ const languages_icons = {
   Dockerfile: "simple-icons:docker",
   Rust: "logos-rust",
 };
+async function fetchGitHubAPI(query, description) {
+  console.log(`Fetching ${description}...`);
+  try {
+    const response = await fetch(baseUrl, {
+      method: "POST",
+      headers: headers,
+      body: JSON.stringify(query),
+    });
 
-fetch(baseUrl, {
-  method: "POST",
-  headers: headers,
-  body: JSON.stringify(query_pinned_projects),
-})
-  .then((response) => response.text())
-  .then((txt) => {
-    const data = JSON.parse(txt);
-    // console.log(txt);
-    const projects = data["data"]["user"]["pinnedItems"]["nodes"];
-    var newProjects = { data: [] };
-    for (var i = 0; i < projects.length; i++) {
-      var obj = projects[i];
-      var langobjs = obj["languages"]["nodes"];
-      var newLangobjs = [];
-      for (var j = 0; j < langobjs.length; j++) {
-        if (langobjs[j]["name"] in languages_icons) {
+    const data = await response.json();
+
+    if (!response.ok) {
+      console.error(
+        `GitHub API HTTP Error for ${description}: ${response.status} ${response.statusText}`
+      );
+      console.error("Response body:", JSON.stringify(data, null, 2));
+      return null;
+    }
+
+    if (data.errors) {
+      console.error(
+        `GitHub API GraphQL Error for ${description}:`,
+        JSON.stringify(data.errors, null, 2)
+      );
+      return null;
+    }
+
+    console.log(`Successfully fetched ${description}.`);
+    return data;
+  } catch (error) {
+    console.error(`Failed to fetch or parse ${description}:`, error);
+    return null;
+  }
+}
+
+async function fetchAndProcessPRs() {
+  const prResponse = await fetchGitHubAPI(query_pr, "Pull Request Data");
+  if (prResponse && prResponse.data.user) {
+    const cropped = { data: [] };
+    cropped["data"] = prResponse.data.user.pullRequests.nodes;
+
+    let open = 0,
+      closed = 0,
+      merged = 0;
+    for (const pr of cropped.data) {
+      if (pr.state === "OPEN") open++;
+      else if (pr.state === "MERGED") merged++;
+      else closed++;
+    }
+
+    cropped.open = open;
+    cropped.closed = closed;
+    cropped.merged = merged;
+    cropped.totalCount = cropped.data.length;
+
+    try {
+      await fs.writeFile(
+        "./src/shared/opensource/pull_requests.json",
+        JSON.stringify(cropped, null, 2)
+      );
+      console.log("pull_requests.json successfully written.\n");
+    } catch (err) {
+      console.error("Error writing pull_requests.json:", err);
+    }
+  }
+}
+
+async function fetchAndProcessIssues() {
+  const issueResponse = await fetchGitHubAPI(query_issue, "Issues Data");
+  if (issueResponse && issueResponse.data.user) {
+    const cropped = { data: [] };
+    cropped["data"] = issueResponse.data.user.issues.nodes;
+
+    let open = 0,
+      closed = 0;
+    for (const issue of cropped.data) {
+      if (issue.closed === false) open++;
+      else closed++;
+    }
+
+    cropped.open = open;
+    cropped.closed = closed;
+    cropped.totalCount = cropped.data.length;
+
+    try {
+      await fs.writeFile(
+        "./src/shared/opensource/issues.json",
+        JSON.stringify(cropped, null, 2)
+      );
+      console.log("issues.json successfully written.\n");
+    } catch (err) {
+      console.error("Error writing issues.json:", err);
+    }
+  }
+}
+
+async function fetchAndProcessOrgs() {
+  const orgResponse = await fetchGitHubAPI(
+    query_org,
+    "Contributed Organization Data"
+  );
+  if (orgResponse && orgResponse.data.user) {
+    const orgs = orgResponse.data.user.repositoriesContributedTo.nodes;
+    const newOrgs = { data: [] };
+    const seenOrgs = new Set();
+
+    for (const org of orgs) {
+      const owner = org.owner;
+      if (owner.__typename === "Organization" && !seenOrgs.has(owner.login)) {
+        newOrgs.data.push(owner);
+        seenOrgs.add(owner.login);
+      }
+    }
+
+    try {
+      await fs.writeFile(
+        "./src/shared/opensource/organizations.json",
+        JSON.stringify(newOrgs, null, 2)
+      );
+      console.log("organizations.json successfully written.\n");
+    } catch (err) {
+      console.error("Error writing organizations.json:", err);
+    }
+  }
+}
+
+async function fetchAndProcessPinnedProjects() {
+  const pinnedResponse = await fetchGitHubAPI(
+    query_pinned_projects,
+    "Pinned Projects Data"
+  );
+  if (pinnedResponse && pinnedResponse.data.user) {
+    const projects = pinnedResponse.data.user.pinnedItems.nodes;
+    const newProjects = { data: [] };
+
+    for (const project of projects) {
+      const langobjs = project.languages.nodes;
+      const newLangobjs = [];
+      for (const lang of langobjs) {
+        if (lang.name in languages_icons) {
           newLangobjs.push({
-            name: langobjs[j]["name"],
-            iconifyClass: languages_icons[langobjs[j]["name"]],
+            name: lang.name,
+            iconifyClass: languages_icons[lang.name],
           });
         }
       }
-      obj["languages"] = newLangobjs;
-      newProjects["data"].push(obj);
+      project.languages = newLangobjs;
+      newProjects.data.push(project);
     }
 
-    console.log("Fetching the Pinned Projects Data.\n");
-    fs.writeFile(
-      "./src/shared/opensource/projects.json",
-      JSON.stringify(newProjects),
-      function (err) {
-        if (err) {
-          console.log(
-            "Error occured in pinned projects 1",
-            JSON.stringify(err)
-          );
-        }
-      }
+    try {
+      await fs.writeFile(
+        "./src/shared/opensource/projects.json",
+        JSON.stringify(newProjects, null, 2)
+      );
+      console.log("projects.json successfully written.\n");
+    } catch (err) {
+      console.error("Error writing projects.json:", err);
+    }
+  }
+}
+
+async function main() {
+  if (!openSource.githubConvertedToken || !openSource.githubUserName) {
+    console.error(
+      "Error: GITHUB_TOKEN and GITHUB_USERNAME environment variables are not set."
     );
-  })
-  .catch((error) =>
-    console.log("Error occured in pinned projects 2", JSON.stringify(error))
-  );
+    console.error(
+      "Please create a .env file in the root directory with these values."
+    );
+    return;
+  }
+
+  try {
+    await fs.mkdir("./src/shared/opensource", { recursive: true });
+  } catch (err) {
+    console.error("Error creating directory ./src/shared/opensource:", err);
+    return;
+  }
+
+  await Promise.all([
+    fetchAndProcessPRs(),
+    fetchAndProcessIssues(),
+    fetchAndProcessOrgs(),
+    fetchAndProcessPinnedProjects(),
+  ]);
+}
+
+main();
