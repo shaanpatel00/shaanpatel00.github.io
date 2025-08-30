@@ -5,31 +5,18 @@ export default class VisionaryTechImg extends Component {
     const theme = this.props.theme;
     return (
       <svg
-        width="744.184"
-        height="800.076"
-        viewBox="0 0 744.184 800.076"
-        role="img"
-      >
+   width="744.184"
+   height="800.076"
+   viewBox="0 0 744.184 800.076"
+   role="img"
+   artist="Katerina Limpitsouni"
+   source="https://undraw.co/"
+   version="1.1"
+   id="svg50"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs50" />
-  <sodipodi:namedview
-     id="namedview50"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.46166375"
-     inkscape:cx="233.9365"
-     inkscape:cy="258.8464"
-     inkscape:window-width="1512"
-     inkscape:window-height="916"
-     inkscape:window-x="0"
-     inkscape:window-y="38"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg50" />
   <path
      d="m 247.187,441.223 v 0 a 23.954,23.954 0 0 0 -9.984,-5.86 l -27.525,-30.005 -14.514,13.913 29.5,28.948 a 23.519,23.519 0 0 0 6.265,9.669 c 7.061,6.751 16.419,8.484 20.905,3.876 4.486,-4.608 2.428,-13.8 -4.62,-20.531 h -0.026 z"
      fill="#ed9da0"
@@ -413,7 +400,6 @@ export default class VisionaryTechImg extends Component {
        y="0" />
   </g>
 </svg>
-
     );
   }
 }
