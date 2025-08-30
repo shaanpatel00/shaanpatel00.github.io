@@ -106,42 +106,65 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Metamask",
-          fontAwesomeClassname: "logos-metamask-icon",
+          skillName: "Arduino",
+          fontAwesomeClassname: "logos:arduino",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Coinbase",
-          fontAwesomeClassname: "arcticons:coinbase",
+          skillName: "Raspberry Pi",
+          fontAwesomeClassname: "logos:raspberry-pi",
           style: {
             backgroundColor: "transparent",
-            color: "#0052ff",
           },
         },
         {
-          skillName: "Exodus",
-          fontAwesomeClassname: "arcticons:exodus",
+          skillName: "Verilog",
+          fontAwesomeClassname: "mdi:chip",
           style: {
             backgroundColor: "transparent",
             color: "#000000",
           },
         },
         {
-          skillName: "Ethereum",
-          fontAwesomeClassname: "mdi:ethereum",
+          skillName: "VHDL",
+          fontAwesomeClassname: "mdi:chip",
           style: {
             backgroundColor: "transparent",
-            color: "#62688f",
+            color: "#000000",
           },
         },
         {
-          skillName: "Bitcoin",
-          fontAwesomeClassname: "mdi:bitcoin",
+          skillName: "MIPS",
+          fontAwesomeClassname: "simple-icons:mips",
           style: {
             backgroundColor: "transparent",
-            color: "#f7931a",
+            color: "#00447C",
+          },
+        },
+        {
+          skillName: "RISC-V",
+          fontAwesomeClassname: "simple-icons:riscv",
+          style: {
+            backgroundColor: "transparent",
+            color: "#252C4A",
+          },
+        },
+        {
+          skillName: "Altium",
+          fontAwesomeClassname: "simple-icons:altiumdesigner",
+          style: {
+            backgroundColor: "transparent",
+            color: "#A59162",
+          },
+        },
+        {
+          skillName: "KiCad",
+          fontAwesomeClassname: "simple-icons:kicad",
+          style: {
+            backgroundColor: "transparent",
+            color: "#314182",
           },
         },
       ],
@@ -846,8 +869,7 @@ const contactPageData = {
   },
   blogSection: {
     title: "Blogs",
-    subtitle:
-      "Coming Soon!",
+    subtitle: "Coming Soon!",
     link: "",
     avatar_image_path: "blogs_image.svg",
   },
