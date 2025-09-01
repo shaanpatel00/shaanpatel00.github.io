@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Shaans's Portfolio",
   description:
-    "Passionate computer engineering student seeking to refine skills in embedded systems design, semiconductor technology, and PCB layout while making a lasting impact on bridging the gap between digital design and real-world application.",
+    "Passionate computer engineering student seeking to refine skills in embedded systems design, semiconductor technology, and PCB layout for real-world applications.",
   og: {
     title: "Shaan Patel Portfolio",
     type: "website",
@@ -23,9 +23,9 @@ const greeting = {
   logo_name: "ShaanPatel",
   nickname: "",
   subTitle:
-    "Passionate computer engineering student seeking to refine skills in embedded systems design, semiconductor technology, and PCB layout while making a lasting impact on bridging the gap between digital design and real-world application.",
+    "Passionate computer engineering student seeking to refine skills in embedded systems design, semiconductor technology, and PCB layout for real-world applications.",
   resumeLink:
-    "https://drive.google.com/file/d/1xX5ybwZyoPQTbVtDN0e_dADChjVmHkfG/view?usp=sharing",
+    "https://drive.google.com/file/d/1sWgfz3XmrPOneIT_Zxvh_ez7lS_r0JJz/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/shaanpatel00",
 };
