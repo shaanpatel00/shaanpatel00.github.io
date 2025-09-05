@@ -638,7 +638,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "Although I have not yet held any positions, I have been involved in a number of projects and volunteer organizations that have helped me develop my skills in computer engineering and data science.",
+    "I have been involved in a number of projects and volunteer organizations that have helped me develop my skills in computer engineering and data science.",
   header_image_path: "experience.svg",
   sections: [
     {
