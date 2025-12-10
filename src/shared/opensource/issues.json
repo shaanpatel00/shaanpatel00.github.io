@@ -1,0 +1,163 @@
+{
+  "closed": 4,
+  "data": [
+    {
+      "id": "I_kwDOLwh1E86ddil5",
+      "closed": true,
+      "title": "Fix splash screen",
+      "createdAt": "2024-11-07T17:49:58Z",
+      "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/issues/2",
+      "number": 2,
+      "assignees": {
+        "nodes": [
+          {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/18252427?u=54b61610c950ec1250ce158f96276b5f3368e33e&v=4",
+            "name": null,
+            "url": "https://github.com/shaanpatel00"
+          }
+        ]
+      },
+      "repository": {
+        "name": "shaanpatel00.github.io",
+        "url": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+        "owner": {
+          "login": "shaanpatel00",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/18252427?u=54b61610c950ec1250ce158f96276b5f3368e33e&v=4",
+          "url": "https://github.com/shaanpatel00"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOLwh1E86ddiQJ",
+      "closed": false,
+      "title": "Update project descriptions in the home page",
+      "createdAt": "2024-11-07T17:49:20Z",
+      "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/issues/1",
+      "number": 1,
+      "assignees": {
+        "nodes": [
+          {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/18252427?u=54b61610c950ec1250ce158f96276b5f3368e33e&v=4",
+            "name": null,
+            "url": "https://github.com/shaanpatel00"
+          }
+        ]
+      },
+      "repository": {
+        "name": "shaanpatel00.github.io",
+        "url": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+        "owner": {
+          "login": "shaanpatel00",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/18252427?u=54b61610c950ec1250ce158f96276b5f3368e33e&v=4",
+          "url": "https://github.com/shaanpatel00"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOLsEg7s6Fn2j2",
+      "closed": true,
+      "title": "Export as PDF feature",
+      "createdAt": "2024-04-13T23:24:29Z",
+      "url": "https://github.com/shaanpatel00/costume-creator/issues/5",
+      "number": 5,
+      "assignees": {
+        "nodes": [
+          {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/33333433?u=2d7d25ce7eef7b11294671a4c6df9b27e3c3a8c4&v=4",
+            "name": "Aadit Trivedi",
+            "url": "https://github.com/AaditT"
+          }
+        ]
+      },
+      "repository": {
+        "name": "costume-creator",
+        "url": "https://github.com/shaanpatel00/costume-creator",
+        "owner": {
+          "login": "shaanpatel00",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/18252427?u=54b61610c950ec1250ce158f96276b5f3368e33e&v=4",
+          "url": "https://github.com/shaanpatel00"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOLsEg7s6Fn2ez",
+      "closed": false,
+      "title": "Fixing zoom feature on site",
+      "createdAt": "2024-04-13T23:23:02Z",
+      "url": "https://github.com/shaanpatel00/costume-creator/issues/4",
+      "number": 4,
+      "assignees": {
+        "nodes": [
+          {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/33333433?u=2d7d25ce7eef7b11294671a4c6df9b27e3c3a8c4&v=4",
+            "name": "Aadit Trivedi",
+            "url": "https://github.com/AaditT"
+          }
+        ]
+      },
+      "repository": {
+        "name": "costume-creator",
+        "url": "https://github.com/shaanpatel00/costume-creator",
+        "owner": {
+          "login": "shaanpatel00",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/18252427?u=54b61610c950ec1250ce158f96276b5f3368e33e&v=4",
+          "url": "https://github.com/shaanpatel00"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOLsEg7s6FTBIS",
+      "closed": true,
+      "title": "Fixing the location of the color bank",
+      "createdAt": "2024-04-10T20:14:27Z",
+      "url": "https://github.com/shaanpatel00/costume-creator/issues/2",
+      "number": 2,
+      "assignees": {
+        "nodes": [
+          {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/33333433?u=2d7d25ce7eef7b11294671a4c6df9b27e3c3a8c4&v=4",
+            "name": "Aadit Trivedi",
+            "url": "https://github.com/AaditT"
+          }
+        ]
+      },
+      "repository": {
+        "name": "costume-creator",
+        "url": "https://github.com/shaanpatel00/costume-creator",
+        "owner": {
+          "login": "shaanpatel00",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/18252427?u=54b61610c950ec1250ce158f96276b5f3368e33e&v=4",
+          "url": "https://github.com/shaanpatel00"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOLsEg7s6FTAl8",
+      "closed": true,
+      "title": "Adding GTRR logo in line with the site heading",
+      "createdAt": "2024-04-10T20:12:48Z",
+      "url": "https://github.com/shaanpatel00/costume-creator/issues/1",
+      "number": 1,
+      "assignees": {
+        "nodes": [
+          {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/33333433?u=2d7d25ce7eef7b11294671a4c6df9b27e3c3a8c4&v=4",
+            "name": "Aadit Trivedi",
+            "url": "https://github.com/AaditT"
+          }
+        ]
+      },
+      "repository": {
+        "name": "costume-creator",
+        "url": "https://github.com/shaanpatel00/costume-creator",
+        "owner": {
+          "login": "shaanpatel00",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/18252427?u=54b61610c950ec1250ce158f96276b5f3368e33e&v=4",
+          "url": "https://github.com/shaanpatel00"
+        }
+      }
+    }
+  ],
+  "open": 2,
+  "totalCount": 6
+}
