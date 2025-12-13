@@ -1,11 +1,11 @@
 {
   "data": [
     {
-      "id": "MDEwOlJlcG9zaXRvcnkzNDcyMjUxMjc=",
-      "name": "autobuyer",
-      "createdAt": "2021-03-12T23:32:13Z",
-      "url": "https://github.com/shaanpatel00/autobuyer",
-      "description": "A Python program that uses the Chrome webdriver and selenium to buy items once they come in stock",
+      "id": "R_kgDOQhfzEw",
+      "name": "ESP32-Fiber-Optic-Star-Map",
+      "createdAt": "2025-12-03T02:51:58Z",
+      "url": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map",
+      "description": "Custom ESP32 fiber optic star map that drives 36 RGB LEDs via a custom PCB to replicate a real star chart. Features dual control via physical button or self-hosted WiFi web interface, smooth PWM dimming, rainbow effects, and NVM state saving. Includes full source code, 3D print files, schematics, and PCB KiCAD files.",
       "isFork": false,
       "languages": []
     },
@@ -32,11 +32,11 @@
       ]
     },
     {
-      "id": "R_kgDOQhfzEw",
-      "name": "ESP32-Fiber-Optic-Star-Map",
-      "createdAt": "2025-12-03T02:51:58Z",
-      "url": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map",
-      "description": null,
+      "id": "MDEwOlJlcG9zaXRvcnkzNDcyMjUxMjc=",
+      "name": "autobuyer",
+      "createdAt": "2021-03-12T23:32:13Z",
+      "url": "https://github.com/shaanpatel00/autobuyer",
+      "description": "A Python program that uses the Chrome WebDriver and Selenium to buy items once they come in stock",
       "isFork": false,
       "languages": []
     }
