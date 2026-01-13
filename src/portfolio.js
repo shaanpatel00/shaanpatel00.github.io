@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Passionate computer engineering student seeking to refine skills in embedded systems design, semiconductor technology, and PCB layout for real-world applications.",
   resumeLink:
-    "https://drive.google.com/file/d/1sWgfz3XmrPOneIT_Zxvh_ez7lS_r0JJz/view?usp=sharing",
+    "https://drive.google.com/file/d/1bZo21t05W4TZ0Awi4NOL3KlX9D3-soDN/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/shaanpatel00",
 };
