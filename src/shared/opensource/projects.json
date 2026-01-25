@@ -10,6 +10,24 @@
       "languages": []
     },
     {
+      "id": "R_kgDOQ_8KVw",
+      "name": "AeroCore-V",
+      "createdAt": "2026-01-23T19:02:35Z",
+      "url": "https://github.com/shaanpatel00/AeroCore-V",
+      "description": "Hardware-Accelerated SoC for Autonomous UAVs",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Shell",
+          "iconifyClass": "simple-icons:shell"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
       "id": "R_kgDOLsEg7g",
       "name": "costume-creator",
       "createdAt": "2024-04-09T19:44:30Z",
@@ -30,15 +48,6 @@
           "iconifyClass": "logos-javascript"
         }
       ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzNDcyMjUxMjc=",
-      "name": "autobuyer",
-      "createdAt": "2021-03-12T23:32:13Z",
-      "url": "https://github.com/shaanpatel00/autobuyer",
-      "description": "A Python program that uses the Chrome WebDriver and Selenium to buy items once they come in stock",
-      "isFork": false,
-      "languages": []
     }
   ]
 }
