@@ -18,8 +18,8 @@
       "isFork": false,
       "languages": [
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "SystemVerilog",
+          "iconifyClass": "simple-icons:systemverilog"
         },
         {
           "name": "Python",
