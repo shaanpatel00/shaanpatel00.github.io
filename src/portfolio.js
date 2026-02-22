@@ -9,9 +9,10 @@ const settings = {
 const seo = {
   title: "Shaans's Portfolio",
   description:
-    "Passionate computer engineering student seeking to refine skills in embedded systems design, semiconductor technology, and PCB layout for real-world applications.",
+    "Computer engineer specialized in full-cycle hardware development, from FPGA design to PCB fabrication. Proficient in Python, C++, and SystemVerilog with a background in GPU programming and VLSI design.",
   og: {
     title: "Shaan Patel Portfolio",
+    subHeading: "Computer Engineering Student @ Georgia Tech",
     type: "website",
     url: "http://shaanpatel00.github.io/",
   },
@@ -23,7 +24,7 @@ const greeting = {
   logo_name: "ShaanPatel",
   nickname: "",
   subTitle:
-    "Passionate computer engineering student seeking to refine skills in embedded systems design, semiconductor technology, and PCB layout for real-world applications.",
+    "Computer engineer specialized in full-cycle hardware development, from FPGA design to PCB fabrication. Proficient in Python, C++, and SystemVerilog with a background in GPU programming and VLSI design.",
   resumeLink:
     "https://drive.google.com/file/d/1bZo21t05W4TZ0Awi4NOL3KlX9D3-soDN/view?usp=sharing",
   portfolio_repository:
