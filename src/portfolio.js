@@ -156,6 +156,86 @@ const skills = {
       ],
     },
     {
+      title: "AeroCore-V: RISC-V Flight Control SoC",
+      fileName: "FullStackImg",
+      skills: [
+        "◈ Architected and synthesized a custom 32-bit RISC-V System-on-Chip (SoC) in SystemVerilog, deployed on a Terasic DE10-Standard Cyclone V FPGA for low-latency UAV flight control.",
+        "◈ Engineered a comprehensive memory hierarchy featuring a split direct-mapped L1 cache, a unified 4-way set-associative L2 cache with True LRU replacement, and an Sv32-compliant MMU with a hardware Page Table Walker for kernel/user isolation.",
+        "◈ Designed a custom single-cycle Proportional-Integral-Derivative (PID) ALU ISA extension (Opcode 0x0B) optimized for Q16.16 fixed-point math to accelerate flight stability control loops.",
+        '◈ Developed a bare-metal C cooperative kernel utilizing inline assembly to interface directly with custom hardware, and verified the RTL pre-synthesis using a C++/Verilator "Digital Twin" with a custom physics engine.',
+      ],
+      softwareSkills: [
+        {
+          skillName: "C",
+          fontAwesomeClassname: "fas fa-code",
+          style: {
+            color: "#A8B9CC",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "fas fa-file-code",
+          style: {
+            color: "#00599C",
+          },
+        },
+        {
+          skillName: "SystemVerilog",
+          fontAwesomeClassname: "fas fa-microchip",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "RISC-V Architecture",
+          fontAwesomeClassname: "fas fa-memory",
+          style: {
+            color: "#1572B6",
+          },
+        },
+      ],
+    },
+    {
+      title: "ESP32 Fiber Optic Star Map",
+      fileName: "FullStackImg",
+      skills: [
+        "◈ Designed and manually fabricated a double-sided PCB in KiCad—integrating I2C logic level converters and 9 IRLB8721PBF N-Channel MOSFETs—to safely switch a high-current array of 36 ARGB LEDs.",
+        "◈ Developed asynchronous ESP32 firmware utilizing hardware interrupts (ISRs) and software debouncing for physical inputs without blocking the 5kHz PWM color-mixing loops.",
+        "◈ Implemented a self-hosted, responsive WiFi web server stored entirely in flash memory (PROGMEM) to enable remote control of lighting states, RGB hex values, and dynamic animations via HTTP requests.",
+        "◈ Utilized the ESP32 Preferences library to continuously read and write system states to flash memory, ensuring seamless restoration of customized lighting modes across system power cycles.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "fas fa-file-code",
+          style: {
+            color: "#00599C",
+          },
+        },
+        {
+          skillName: "IoT / WiFi",
+          fontAwesomeClassname: "fas fa-wifi",
+          style: {
+            color: "#00979D",
+          },
+        },
+        {
+          skillName: "Hardware/PCB Design",
+          fontAwesomeClassname: "fas fa-microchip",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "Web Server",
+          fontAwesomeClassname: "fas fa-server",
+          style: {
+            color: "#1572B6",
+          },
+        },
+      ],
+    },
+    {
       title: "Cryptocurrency Mining and Trading",
       fileName: "DataScienceImg",
       skills: [
