@@ -32,7 +32,8 @@
 
 .greeting-text {
   margin-top: 80px;
-  font-size: 70px;
+  font-size: 85px;
+  margin-bottom: 0px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
 }
@@ -41,7 +42,7 @@
   font-family: "Google Sans Regular", sans-serif;
   font-size: 28px;
   font-weight: 600;
-  margin-top: 5px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
@@ -77,12 +78,15 @@
     justify-content: space-around;
   }
   .greeting-text {
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 0px;
     text-align: center;
+    margin-bottom: 0px;
   }
   .greeting-subheading {
     font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
   }
   .greeting-nickname {
     font-size: 25px;

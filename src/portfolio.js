@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Shaans's Portfolio",
   description:
-    "Computer engineer specialized in full-cycle hardware development, from FPGA design to PCB fabrication. Proficient in Python, C++, and SystemVerilog with a background in GPU programming and VLSI design.",
+    "Specialized in full-cycle hardware development, from FPGA design to PCB fabrication. Proficient in Python, C++, and SystemVerilog with a background in GPU programming and VLSI design.",
   og: {
     title: "Shaan Patel Portfolio",
     type: "website",
@@ -24,7 +24,7 @@ const greeting = {
   logo_name: "ShaanPatel",
   nickname: "",
   subTitle:
-    "Computer engineer specialized in full-cycle hardware development, from FPGA design to PCB fabrication. Proficient in Python, C++, and SystemVerilog with a background in GPU programming and VLSI design.",
+    "Specialized in full-cycle hardware development, from FPGA design to PCB fabrication. Proficient in Python, C++, and SystemVerilog with a background in GPU programming and VLSI design.",
   resumeLink:
     "https://drive.google.com/file/d/1bZo21t05W4TZ0Awi4NOL3KlX9D3-soDN/view?usp=sharing",
   portfolio_repository:
