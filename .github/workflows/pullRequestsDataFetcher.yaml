@@ -5,6 +5,9 @@ on:
     branches:
       - all
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   pullRequestRelease:
     runs-on: ubuntu-latest
