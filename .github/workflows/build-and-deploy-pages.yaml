@@ -32,6 +32,9 @@ jobs:
 
       - name: Build project
         run: npm run build  # Adjust if your build command is different
+        env: 
+          CI: false
+
 
       - name: Upload Artifacts
         id: deployment
