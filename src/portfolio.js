@@ -26,7 +26,7 @@ const greeting = {
   subTitle:
     "Specialized in full-cycle hardware development, from FPGA design to PCB fabrication. Proficient in Python, C++, and SystemVerilog with a background in GPU programming and VLSI design.",
   resumeLink:
-    "https://drive.google.com/file/d/1u12MbWkMYM3PPI6tP5vj5NeDUPblV2_S/view?usp=sharing",
+    "https://drive.google.com/file/d/16w6P-9Se7T-0xpvX1lN8r-3aozqjy5rF/view",
   portfolio_repository:
     "https://github.com/shaanpatel00/shaanpatel00.github.io",
   githubProfile: "https://github.com/shaanpatel00",
