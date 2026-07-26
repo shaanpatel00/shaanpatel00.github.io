@@ -25,7 +25,7 @@ const greeting = {
   nickname: "",
   subTitle:
     "Specialized in full-cycle hardware development, from FPGA design to PCB fabrication. Proficient in Python, C++, and SystemVerilog with a background in GPU programming and VLSI design.",
-  resumeLink: "/Shaan Patel Resume.pdf",
+  resumeLink: "/Shaan_Patel_Resume.pdf",
   portfolio_repository:
     "https://github.com/shaanpatel00/shaanpatel00.github.io",
   githubProfile: "https://github.com/shaanpatel00",
