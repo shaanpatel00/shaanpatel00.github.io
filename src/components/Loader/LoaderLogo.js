@@ -39,7 +39,7 @@ class LogoLoader extends React.Component {
           class="letter"
           d="m 270.75428,133.4976 c -3.97407,0 -7.19692,3.22592 -7.19696,7.19998 4e-5,3.97406 3.22289,7.19848 7.19696,7.19848 3.9741,0 7.20001,-3.22442 7.20001,-7.19848 0,-3.97406 -3.22591,-7.19998 -7.20001,-7.19998 z"
           fill={theme.body}
-          />
+        />
         <mask id="path-5-inside-1" fill={theme.body}>
           <path d="m 96.917307,278.23438 c -5.67611,3.28068 -8.383979,5.78025 -9.165095,7.60286 -0.208297,0.52074 -0.312446,0.93734 -0.312446,1.35393 0,1.45809 1.197711,2.39543 3.176538,2.86409 1.041488,0.31245 2.395423,0.4166 3.853506,0.4166 1.249786,0 2.60372,-0.10415 3.957655,-0.26037 7.030045,-0.83319 15.309875,-3.90558 16.038915,-7.81116 0.0521,-0.15623 0.0521,-0.36452 0.0521,-0.52075 0,-4.16595 -9.78998,-6.66552 -20.04864,-9.37339 -8.696425,-2.2392 -17.809445,-4.58255 -20.673537,-7.60286 -0.46867,-0.52075 -0.729042,-1.04149 -0.729042,-1.61431 0,-0.78111 0.46867,-1.6143 1.406009,-2.49957 4.894994,-4.63462 16.455511,-10.51903 28.53677,-14.8412 7.55079,-2.75995 15.36195,-4.895 21.81918,-5.67611 1.87467,-0.2083 3.6452,-0.36452 5.20744,-0.36452 3.69728,0 6.5093,0.67696 8.01945,2.2392 0.36453,0.36452 0.6249,0.83319 0.83319,1.35393 0.0521,0.15622 0.0521,0.36452 0.0521,0.52074 0,5.62404 -26.92247,23.12104 -29.57826,24.83949 l -0.2083,0.15623 c -0.26037,0.15622 -0.41659,0.46867 -0.41659,0.78111 0,0.2083 0.0521,0.4166 0.20829,0.57282 0.2083,0.26037 0.52075,0.4166 0.88527,0.4166 0.2083,0 0.41659,-0.0521 0.57282,-0.15623 l 0.20829,-0.10415 c 2.75995,-1.8226 30.41146,-19.73619 30.41146,-26.81831 0,-0.26037 -0.0521,-0.52075 -0.15623,-0.78112 -0.26037,-0.78111 -0.67697,-1.45808 -1.24978,-2.08297 -1.92676,-2.03091 -5.36367,-2.91617 -9.73792,-2.91617 -1.66638,0 -3.48898,0.15622 -5.36366,0.36452 -6.66552,0.83319 -14.58083,3.02031 -22.33992,5.78026 -12.289557,4.42632 -24.110447,10.46695 -29.213738,15.30987 -1.458083,1.35394 -2.082976,2.60372 -2.082976,3.80143 0,1.04149 0.46867,2.08298 1.353934,3.02032 3.280688,3.43691 12.706155,5.88441 21.715026,8.22775 9.477544,2.4475 18.486414,4.79085 18.486414,7.3425 0,0.10414 0,0.15622 -0.0521,0.20829 -0.57281,3.02032 -7.9153,5.51989 -14.268382,6.24893 -1.30186,0.15622 -2.551646,0.26037 -3.697282,0.26037 -1.30186,0 -2.395423,-0.10415 -3.280688,-0.31244 -0.937339,-0.26038 -1.458083,-0.6249 -1.458083,-1.19771 0,-0.10415 0,-0.2083 0.05207,-0.36453 0.624893,-1.45808 3.124465,-3.6452 8.331905,-6.66552 0.312446,-0.2083 0.520744,-0.52074 0.520744,-0.83319 0,-0.2083 -0.104149,-0.36452 -0.208298,-0.57282 -0.208297,-0.31244 -0.572818,-0.46867 -0.885265,-0.46867 -0.208297,0 -0.416595,0.0521 -0.572818,0.15623 z" />
           <path d="m 151.85577,272.03752 c 0,0 -11.92504,2.86409 -16.50759,5.20744 0.46867,-1.51016 0.88527,-3.59313 -0.0521,-5.83233 -1.66638,-4.11388 -7.18627,2.0309 -11.09185,7.13419 0.52074,-1.66638 1.09356,-3.28069 1.61431,-4.89499 10.88355,-8.7485 17.2887,-23.95423 19.16338,-32.9631 0.67696,-3.59313 0.67696,-6.35308 -0.0521,-7.55079 -1.09356,-1.77053 -2.96824,-1.35393 -5.46781,2.34335 -3.85351,5.62404 -10.31073,20.1528 -19.42375,49.05409 v 0 c -0.15623,0.41659 0.0521,0.93734 0.41659,1.19771 0.52075,0.31245 1.19771,0.15622 1.51016,-0.31245 0,-0.0521 10.25866,-15.88269 11.40429,-13.17482 0.8332,1.97883 0.10415,4.11388 -0.36452,5.31159 -0.31244,0.88526 -0.52074,1.51016 -0.15622,2.08297 0.52074,0.8332 1.35394,0.78112 2.96824,-0.20829 3.59314,-2.18713 16.50759,-5.31159 16.55966,-5.31159 0.57282,-0.15623 0.93734,-0.72904 0.78112,-1.30186 -0.15623,-0.57282 -0.72904,-0.93734 -1.30186,-0.78112 z M 141.23259,236.679 c 1.24979,-1.8226 1.8226,-2.55164 1.92675,-2.39542 0.4166,0.72904 0.31245,2.91617 -0.31244,5.98856 -1.61431,7.91531 -6.82175,20.77768 -15.6744,29.31789 6.40515,-18.48642 11.03977,-28.53678 14.06009,-32.91103 z" />
@@ -122,74 +122,74 @@ class LogoLoader extends React.Component {
       .signature1{
 			stroke-dasharray: 800;
 			stroke-dashoffset: 800;
-			-webkit-animation: dash 1s linear forwards 0.5s;
-			-o-animation: dash 1s linear forwards 0.5s;
-			-moz-animation: dash 1s linear forwards 0.5s;
-			animation: dash 1s linear forwards 0.5s;
+			-webkit-animation: dash 0.5s linear forwards 0.2s;
+			-o-animation: dash 0.5s linear forwards 0.2s;
+			-moz-animation: dash 0.5s linear forwards 0.2s;
+			animation: dash 0.5s linear forwards 0.2s;
 		}
 		.signature2{
 			stroke-dasharray: 800;
 			stroke-dashoffset: 800;
-			-webkit-animation: dash 1s linear forwards 0.7s;
-			-o-animation: dash 1s linear forwards 0.7s;
-			-moz-animation: dash 1s linear forwards 0.7s;
-			animation: dash 1s linear forwards 0.7s;
+			-webkit-animation: dash 0.5s linear forwards 0.3s;
+			-o-animation: dash 0.5s linear forwards 0.3s;
+			-moz-animation: dash 0.5s linear forwards 0.3s;
+			animation: dash 0.5s linear forwards 0.3s;
 		}
 		.signature3{
 			stroke-dasharray: 800;
 			stroke-dashoffset: 800;
-			-webkit-animation: dash 1s linear forwards 0.9s;
-			-o-animation: dash 1s linear forwards 0.9s;
-			-moz-animation: dash 1s linear forwards 0.9s;
-			animation: dash 1s linear forwards 0.9s;
+			-webkit-animation: dash 0.5s linear forwards 0.4s;
+			-o-animation: dash 0.5s linear forwards 0.4s;
+			-moz-animation: dash 0.5s linear forwards 0.4s;
+			animation: dash 0.5s linear forwards 0.4s;
 		}
 		.signature4{
 			stroke-dasharray: 800;
 			stroke-dashoffset: 800;
-			-webkit-animation: dash 1s linear forwards 1.1s;
-			-o-animation: dash 1s linear forwards 1.1s;
-			-moz-animation: dash 1s linear forwards 1.1s;
-			animation: dash 1s linear forwards 1.1s;
+			-webkit-animation: dash 0.5s linear forwards 0.5s;
+			-o-animation: dash 0.5s linear forwards 0.5s;
+			-moz-animation: dash 0.5s linear forwards 0.5s;
+			animation: dash 0.5s linear forwards 0.5s;
 		}
 		.signature5{
 			stroke-dasharray: 800;
 			stroke-dashoffset: 800;
-			-webkit-animation: dash 1s linear forwards 1.3s;
-			-o-animation: dash 1s linear forwards 1.3s;
-			-moz-animation: dash 1s linear forwards 1.3s;
-			animation: dash 1s linear forwards 1.3s;
+			-webkit-animation: dash 0.5s linear forwards 0.6s;
+			-o-animation: dash 0.5s linear forwards 0.6s;
+			-moz-animation: dash 0.5s linear forwards 0.6s;
+			animation: dash 0.5s linear forwards 0.6s;
 		}
 		.signature6{
 			stroke-dasharray: 800;
 			stroke-dashoffset: 800;
-			-webkit-animation: dash 1s linear forwards 1.5s;
-			-o-animation: dash 1s linear forwards 1.5s;
-			-moz-animation: dash 1s linear forwards 1.5s;
-			animation: dash 1s linear forwards 1.5s;
+			-webkit-animation: dash 0.5s linear forwards 0.7s;
+			-o-animation: dash 0.5s linear forwards 0.7s;
+			-moz-animation: dash 0.5s linear forwards 0.7s;
+			animation: dash 0.5s linear forwards 0.7s;
 		}
 		.signature7{
 			stroke-dasharray: 800;
 			stroke-dashoffset: 800;
-			-webkit-animation: dash 1s linear forwards 1.7s;
-			-o-animation: dash 1s linear forwards 1.7s;
-			-moz-animation: dash 1s linear forwards 1.7s;
-			animation: dash 1s linear forwards 1.7s;
+			-webkit-animation: dash 0.5s linear forwards 0.8s;
+			-o-animation: dash 0.5s linear forwards 0.8s;
+			-moz-animation: dash 0.5s linear forwards 0.8s;
+			animation: dash 0.5s linear forwards 0.8s;
 		}
 		.signature8{
 			stroke-dasharray: 800;
 			stroke-dashoffset: 800;
-			-webkit-animation: dash 1s linear forwards 1.9s;
-			-o-animation: dash 1s linear forwards 1.9s;
-			-moz-animation: dash 1s linear forwards 1.9s;
-			animation: dash 1s linear forwards 1.9s;
+			-webkit-animation: dash 0.5s linear forwards 0.9s;
+			-o-animation: dash 0.5s linear forwards 0.9s;
+			-moz-animation: dash 0.5s linear forwards 0.9s;
+			animation: dash 0.5s linear forwards 0.9s;
 		}
 		.signature9{
 			stroke-dasharray: 800;
 			stroke-dashoffset: 800;
-			-webkit-animation: dash 1s linear forwards 2.1s;
-			-o-animation: dash 1s linear forwards 2.1s;
-			-moz-animation: dash 1s linear forwards 2.1s;
-			animation: dash 1s linear forwards 2.1s;
+			-webkit-animation: dash 0.5s linear forwards 1.0s;
+			-o-animation: dash 0.5s linear forwards 1.0s;
+			-moz-animation: dash 0.5s linear forwards 1.0s;
+			animation: dash 0.5s linear forwards 1.0s;
 		}
 
 		.signature{
@@ -203,10 +203,10 @@ class LogoLoader extends React.Component {
 
 		.letter{
 			opacity: 0;
-			-webkit-animation: fadein 2s linear forwards 2.5s;
-			-o-animation: fadein 2s linear forwards 2.5s;
-			-moz-animation: fadein 2s linear forwards 2.5s;
-			animation: fadein 2s linear forwards 2.5s;
+			-webkit-animation: fadein 1s linear forwards 1.5s;
+			-o-animation: fadein 1s linear forwards 1.5s;
+			-moz-animation: fadein 1s linear forwards 1.5s;
+			animation: fadein 1s linear forwards 1.5s;
 		}
 
 		@-webkit-keyframes fadein{
@@ -221,10 +221,10 @@ class LogoLoader extends React.Component {
       .myRectangle{
 			stroke-dasharray: 800;
 			stroke-dashoffset: 800;
-			-webkit-animation: dash 3s linear forwards 0.5s;
-			-o-animation: dash 3s linear forwards 0.5s;
-			-moz-animation: dash 3s linear forwards 0.5s;
-			animation: dash 3s linear forwards 0.5s;
+			-webkit-animation: dash 1.5s ease-in-out forwards 0.2s;
+			-o-animation: dash 1.5s ease-in-out forwards 0.2s;
+			-moz-animation: dash 1.5s ease-in-out forwards 0.2s;
+			animation: dash 1.5s ease-in-out forwards 0.2s;
 		}
 
 		@-webkit-keyframes dash{
