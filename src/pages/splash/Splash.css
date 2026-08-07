@@ -14,8 +14,8 @@
   align-items: center;
   justify-content: center;
   overflow: visible;
-  animation: grow 4.5s forwards;
-  -webkit-animation: grow 4.5s forwards; /* Safari-specific animation */
+  animation: grow 3.5s forwards;
+  -webkit-animation: grow 3.5s forwards; /* Safari-specific animation */
 }
 
 body {
@@ -38,7 +38,7 @@ body {
     height: 100%;
     width: 100%;
   }
-  85% {
+  70% {
     transform: scale(1);
     border-radius: 0%;
     height: 100%;
@@ -62,7 +62,7 @@ body {
     height: 100%;
     width: 100%;
   }
-  80% {
+  70% {
     -webkit-transform: scale(1);
     border-radius: 0%;
     height: 100%;
