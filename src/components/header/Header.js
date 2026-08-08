@@ -72,6 +72,8 @@ class Header extends Component {
                   Experience
                 </NavLink>
               </li>
+              {/* Muted standalone projects subpage link */}
+              {/*
               <li>
                 <NavLink
                   to="/projects"
@@ -84,6 +86,7 @@ class Header extends Component {
                   Projects
                 </NavLink>
               </li>
+              */}
               <li>
                 <NavLink
                   to="/opensource"

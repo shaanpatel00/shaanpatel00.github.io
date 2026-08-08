@@ -6,7 +6,7 @@ dotenv.config();
 
 const openSource = {
   githubConvertedToken: process.env.GITHUB_TOKEN,
-  githubUserName: process.env.GITHUB_USERNAME,
+  githubUserName: process.env.GITHUB_USERNAME || "shaanpatel00",
 };
 
 const query_pr = {
@@ -310,12 +310,12 @@ async function fetchAndProcessPinnedProjects() {
 }
 
 async function main() {
-  if (!openSource.githubConvertedToken || !openSource.githubUserName) {
+  if (!openSource.githubConvertedToken) {
     console.error(
-      "Error: GITHUB_TOKEN and GITHUB_USERNAME environment variables are not set."
+      "Error: GITHUB_TOKEN environment variable is not set."
     );
     console.error(
-      "Please create a .env file in the root directory with these values."
+      "Please set GITHUB_TOKEN in your environment or .env file."
     );
     return;
   }
