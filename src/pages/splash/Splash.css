@@ -14,8 +14,8 @@
   align-items: center;
   justify-content: center;
   overflow: visible;
-  animation: grow 3.5s forwards;
-  -webkit-animation: grow 3.5s forwards; /* Safari-specific animation */
+  animation: grow 2.5s forwards;
+  -webkit-animation: grow 2.5s forwards; /* Safari-specific animation */
 }
 
 body {
