@@ -1,47 +1,43 @@
 name: build-and-deploy-pages
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 permissions:
-  id-token: write  # This grants the necessary id-token permission
-  contents: read   # This is the default permission for reading repo contents
-  pages: write     # This grants the necessary pages permission
-  
+  id-token: write
+  contents: read
+  pages: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v3
 
       - name: Set up Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: "18"
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build project
-        run: npm run build  # Adjust if your build command is different
-        env: 
+        run: npm run build
+        env:
           CI: false
-
 
       - name: Upload Artifacts
         id: deployment
-        uses: actions/upload-pages-artifact@v5 # or specific "vX.X.X" version tag for this action
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./build
-          
+
   deploy:
     environment:
       name: github-pages
@@ -51,4 +47,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v2
