@@ -2,6 +2,22 @@
   {
     "repo": "shaanpatel00.github.io",
     "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "e136da0",
+    "message": "refactor GitHub Actions into 3-stage node pipeline and restrict push triggers",
+    "date": "2026-08-09T16:14:51Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/e136da076c79dbd33fd742297fb1376e015f1763"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "8359503",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-08-09T16:10:17Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/83595030454d34cc116cda3ba1b57802baaa8af9"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
     "sha": "6712d79",
     "message": "Clean up miscellaneous files from directory",
     "date": "2026-08-09T16:09:32Z",
@@ -22,22 +38,6 @@
     "message": "Merge branch 'main' of github.com:shaanpatel00/shaanpatel00.github.io",
     "date": "2026-08-09T16:02:44Z",
     "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/4e537dc909a4c0a6af6eb618ed68221573895c29"
-  },
-  {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "cbf88fa",
-    "message": "update GithubCommitFeed to support object-based commit data formats",
-    "date": "2026-08-09T16:02:26Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/cbf88fa25ad36419fff60db1e6c9a8e3a536e2b9"
-  },
-  {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "4d6a3be",
-    "message": "auto: update GitHub open source data files",
-    "date": "2026-08-09T15:56:34Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/4d6a3be4750f79019b028f9c1f8ac7e8ef42c220"
   },
   {
     "repo": "AeroCore-V",
