@@ -2,6 +2,22 @@
   {
     "repo": "shaanpatel00.github.io",
     "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "5313129",
+    "message": "upgrade GitHub Action workflow steps to v4 actions",
+    "date": "2026-08-09T16:17:41Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/5313129fbb120dd91de813b606672f7d58696b48"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "873a814",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-08-09T16:15:33Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/873a814b3ac66031e72f2ca15a55bf6c77ca42ac"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
     "sha": "e136da0",
     "message": "refactor GitHub Actions into 3-stage node pipeline and restrict push triggers",
     "date": "2026-08-09T16:14:51Z",
@@ -22,22 +38,6 @@
     "message": "Clean up miscellaneous files from directory",
     "date": "2026-08-09T16:09:32Z",
     "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/6712d790c22b7db5156f8a2c4815dcc6e0afc0f9"
-  },
-  {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "ade17f6",
-    "message": "auto: update GitHub open source data files",
-    "date": "2026-08-09T16:03:48Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/ade17f6fa16f7cc402ee6c69f0d9be5e3ad7970f"
-  },
-  {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "4e537dc",
-    "message": "Merge branch 'main' of github.com:shaanpatel00/shaanpatel00.github.io",
-    "date": "2026-08-09T16:02:44Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/4e537dc909a4c0a6af6eb618ed68221573895c29"
   },
   {
     "repo": "AeroCore-V",
