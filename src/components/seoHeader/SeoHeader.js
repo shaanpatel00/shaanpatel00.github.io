@@ -71,6 +71,15 @@ function SeoHeader() {
       <meta property="og:title" content={seo?.og?.title} />
       <meta property="og:type" content={seo?.og?.type} />
       <meta property="og:url" content={seo?.og?.url} />
+      <meta
+        property="og:image"
+        content="https://shaanpatel00.github.io/icons/desc.png"
+      />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twitter:image"
+        content="https://shaanpatel00.github.io/icons/desc.png"
+      />
       <script type="application/ld+json">{JSON.stringify(data)}</script>
     </Helmet>
   );
