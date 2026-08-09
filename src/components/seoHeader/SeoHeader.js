@@ -25,7 +25,11 @@ function SeoHeader() {
     .link.substring("mailto:".length);
   let job = experience.sections
     ?.find((section) => section.work)
-    ?.experiences?.at(0);
+    ?.experiences?.at(0) ||
+    experience.sections?.[0]?.experiences?.[0] || {
+      title: "Computer Engineer",
+      company: "Georgia Tech",
+    };
 
   let credentials = [];
   certifications.certifications.forEach((certification) => {
@@ -45,10 +49,10 @@ function SeoHeader() {
     email: mail,
     telephone: contactPageData.phoneSection?.subtitle,
     sameAs: sameAs,
-    jobTitle: job.title,
+    jobTitle: job?.title || "Computer Engineer",
     worksFor: {
       "@type": "Organization",
-      name: job.company,
+      name: job?.company || "Georgia Tech",
     },
     address: {
       "@type": "PostalAddress",

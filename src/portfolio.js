@@ -537,166 +537,112 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Projects and Volunteership",
   description:
-    "I have been involved in a number of projects and volunteer organizations that have helped me develop my skills in computer engineering and data science.",
+    "I am a Computer Engineering student specializing in SystemVerilog RTL implementation, hardware/PCB prototyping, and embedded systems to build high-performance silicon and compute infrastructure.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
-      work: true,
+      title: "Projects",
       experiences: [
         {
-          title: "Coming Soon!",
-          //company: "Coming Soon!",
-          company_url: "",
-          logo_path: "unknown.png",
-          /*duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
+          title: "AeroCore-V – Hardware-Accelerated SoC for Autonomous UAVs",
+          company: "SiliconJackets Project Lead",
+          company_url: "https://github.com/shaanpatel00/AeroCore-V",
+          logo_path: "gt_logo.png",
+          duration: "August 2025 – Present",
+          location: "Atlanta, GA",
           description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
-          color: "#000000",
-          */
-        },
-        /**
-        {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
-        },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
+            "◈ Designed RTL for an open-source RISC-V SoC in SystemVerilog with custom ALU extensions for single-cycle PID control math.\n◈ Integrated a direct-mapped, 4KB L1 cache handling high-frequency I2C/SPI GPS and IMU data streams to reduce stalls by 52% (measured via a custom Verilator cycle-accurate harness), while developing a 4-way L2 controller with LRU replacement.\n◈ Developing a virtual memory system with Page Table Walker and TLB to isolate flight routines and protect from page faults, utilizing GitHub Actions CI/CD pipelines to automate regression testing and cycle-accurate simulations.\n◈ Prototyped a priority-based thread scheduler to manage UAV flight loops and telemetry tasks, alongside an OpenGL Digital Twin physics simulator in C++ to validate future flight latency reductions.\n◈ Validated logic synthesis and PPA analysis on Intel DE10 FPGAs with Intel Quartus Prime and authored SystemVerilog Assertions (SVA) and functional testbenches in Verilator to perform coverage analysis and debug RTL logic failures.",
+          color: "#00599C",
+          softwareSkills: [
+            {
+              skillName: "SystemVerilog",
+              fontAwesomeClassname: "vscode-icons:file-type-verilog",
+            },
+            { skillName: "C/C++", fontAwesomeClassname: "logos:c-plusplus" },
+            {
+              skillName: "RISC-V",
+              fontAwesomeClassname: "simple-icons:riscv",
+              style: { color: "#252C4A" },
+            },
+            {
+              skillName: "Verilator",
+              fontAwesomeClassname: "ph:gear-six-bold",
+              style: { color: "#00599C" },
+            },
+          ],
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
-        */
-      ],
-    },
-    {
-      title: "Internships",
-      experiences: [
-        /**
-        {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-          color: "#000000",
-        },
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
+          title: "ESP32 Fiber Optic Star Map",
+          company: "Sole Creator",
           company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
+            "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map",
+          logo_path: "gt_logo.png",
+          duration: "September 2025 – December 2025",
+          location: "Atlanta, GA",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
+            "◈ Scripted bare-metal C++ firmware for an ESP32 microcontroller, implementing non-volatile memory (NVM) drivers for state retention and hardware-debounced GPIO interrupt service routines (ISRs) for real-time control.\n◈ Engineered ARGB PWM power distribution networks and modeled a custom enclosure in SolidWorks for thermal dissipation.\n◈ Fabricated a custom ESP32 PCB designed with KiCad using a ProtoLaser, running SPICE circuit simulations and passing strict DRC and ERC verification to ensure clean trace routing and signal integrity.\n◈ Executed hardware validation using oscilloscopes and multimeters to characterize transient voltage drop under 100% LED load.",
+          color: "#6B46C1",
+          softwareSkills: [
+            { skillName: "C++", fontAwesomeClassname: "logos:c-plusplus" },
+            {
+              skillName: "ESP32",
+              fontAwesomeClassname: "simple-icons:espressif",
+              style: { color: "#E7352C" },
+            },
+            {
+              skillName: "KiCad",
+              fontAwesomeClassname: "simple-icons:kicad",
+              style: { color: "#314DA0" },
+            },
+            {
+              skillName: "3D Design",
+              fontAwesomeClassname: "simple-icons:blender",
+              style: { color: "#EA7600" },
+            },
+          ],
         },
-        */
+        {
+          title: "High-Performance Heterogeneous Computing Infrastructure",
+          company: "BlendFarm Project Leader",
+          company_url: null,
+          logo_path: "blendfarm_logo.png",
+          duration: "June 2022 – July 2025",
+          location: "Ashburn, VA",
+          description:
+            "◈ Assembled two 2.5kW parallel computing systems from the component level, integrating twelve 12GB GDDR6 GPUs and modifying voltage curves to bypass LHR limiters, achieving a 73% hash rate improvement.\n◈ Overcame data mesh faults using Tcl and Bash automations to schedule distributed compute workloads across cluster nodes.\n◈ Scripted a distributed render farm using C++ and SFML to coordinate large ray tracing frame rendering across a network.\n◈ Optimized task allocation using TCP/UDP socket tunnels and a custom jitter buffer implementation to ensure reliable data synchronization between the master node and rendering clients for faster computer graphics generation.",
+          color: "#76B900",
+          softwareSkills: null,
+        },
+        {
+          title: "Academy of Science International Research",
+          company: "Research Collaborator",
+          company_url: null,
+          logo_path: "acl_logo.jpeg",
+          duration: "November 2022 – July 2024",
+          location: "Ashburn, VA",
+          description:
+            "◈ Synthesized a novel saline-soluble polymer alternative to general petrochemical plastics as a means of preventing marine pollution.\n◈ Modeled and fabricated 3D-generated molds using filament and resin printers for synthesizing hydrogels through incubation.\n◈ Worked with a tensile tester to measure Young’s modulus and SEM electron microscopy to analyze sample composition.\n◈ Led collaboration efforts with South Korean research teams for two years to formulate samples and complete testing.\n◈ Collected over 150 trials of data and was awarded the Yale Outstanding Project award at RSEF in Spring of 2023.",
+          color: "#ff4103",
+          softwareSkills: null,
+        },
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Georgia Tech HIVE Makerspace Student Leader",
-          company: "Georgia Tech HIVE Makerspace",
+          title: "Georgia Tech HIVE Makerspace",
+          company: "Student Leader and Volunteer",
           company_url: "https://hive.ece.gatech.edu/",
           logo_path: "hive_logo.png",
-          duration: "August 2024 - Present",
-          location: "Atlanta, Georgia",
+          duration: "August 2024 – Present",
+          location: "Atlanta, GA",
           description:
-            "As a Student Leader and Peer Instructor at the Georgia Tech HIVE Makerspace, my role combines technical development with mentorship. I instruct approximately 40 students each week on advanced design and fabrication workflows, including 3D CAD, circuit analysis with oscilloscopes, and laser cutter operation. To increase engagement, I facilitate workshops and create training materials, which have helped boost student participation by 20%. My development work includes creating a print manager to automate jobs and improve the uptime of the 12-unit 3D print farm. I am also architecting a full-stack inventory system using an AWS RDS backend to track materials and enable a student electronics rental program, with the goal of reducing annual costs for students.",
+            "◈ Instruct ~40 students per week on advanced design and fabrication workflows, including 3D CAD/slicing, circuit analysis with oscilloscopes, laser cutter operation, KiCAD/Altium PCB design and manufacturing (taking a blank FR4 sheet to an operational PCB).\n◈ Deployed an open-source multi-device print manager to automate jobs on a FIFO basis, increasing the operational uptime of the free-to-use 12-unit Bambu Lab 3D print farm for the Georgia Tech student body.\n◈ Facilitate workshops and created training resources that contributed to a 20% increase in student participation.\n◈ Architecting a full-stack inventory management system using an AWS RDS backend to track materials in the cloud with S3 and DynamoDB to enable a student electronics rental program, aiming to reduce annual student costs.",
           color: "#fee600",
         },
-        /**
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
-        },
-        */
       ],
     },
   ],
