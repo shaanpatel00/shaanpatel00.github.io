@@ -2,6 +2,22 @@
   {
     "repo": "shaanpatel00.github.io",
     "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "46b723a",
+    "message": "update LoaderLogo SVG paths to use React-compliant attribute naming and add stroke styling properties",
+    "date": "2026-08-09T16:26:11Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/46b723ae027bf52d9fcb00605ecf6ca0f864d4d2"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "ad0a876",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-08-09T16:18:36Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/ad0a8762cdcdaa1da18db89ddad2fe6abde91893"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
     "sha": "5313129",
     "message": "upgrade GitHub Action workflow steps to v4 actions",
     "date": "2026-08-09T16:17:41Z",
@@ -22,22 +38,6 @@
     "message": "refactor GitHub Actions into 3-stage node pipeline and restrict push triggers",
     "date": "2026-08-09T16:14:51Z",
     "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/e136da076c79dbd33fd742297fb1376e015f1763"
-  },
-  {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "8359503",
-    "message": "auto: update GitHub open source data files",
-    "date": "2026-08-09T16:10:17Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/83595030454d34cc116cda3ba1b57802baaa8af9"
-  },
-  {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "6712d79",
-    "message": "Clean up miscellaneous files from directory",
-    "date": "2026-08-09T16:09:32Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/6712d790c22b7db5156f8a2c4815dcc6e0afc0f9"
   },
   {
     "repo": "AeroCore-V",
