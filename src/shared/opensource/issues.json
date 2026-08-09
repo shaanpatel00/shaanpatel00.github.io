@@ -1,5 +1,4 @@
 {
-  "closed": 6,
   "data": [
     {
       "id": "I_kwDOOmHid88AAAABKP4FXg",
@@ -251,5 +250,6 @@
     }
   ],
   "open": 4,
+  "closed": 6,
   "totalCount": 10
 }
