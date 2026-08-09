@@ -1,0 +1,85 @@
+.github-calendar-main-container {
+  margin: 30px auto;
+  padding: 24px;
+  width: 90%;
+  max-width: 1100px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+}
+
+.github-calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.github-calendar-title {
+  font-family: "Google Sans Medium", sans-serif;
+  font-size: 24px;
+  margin: 0;
+}
+
+.github-calendar-total-badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.github-calendar-grid-wrapper {
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.github-calendar-grid {
+  display: flex;
+  gap: 3px;
+  min-width: 720px;
+}
+
+.github-calendar-column {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.github-calendar-day {
+  width: 11px;
+  height: 11px;
+  border-radius: 2px;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+  cursor: pointer;
+}
+
+.github-calendar-day:hover {
+  transform: scale(1.3);
+  z-index: 10;
+}
+
+.github-calendar-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.github-calendar-legend-text {
+  font-size: 12px;
+}
+
+.github-calendar-legend-dots {
+  display: flex;
+  gap: 3px;
+}
+
+.github-calendar-day-legend {
+  width: 11px;
+  height: 11px;
+  border-radius: 2px;
+}

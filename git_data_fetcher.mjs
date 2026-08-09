@@ -347,6 +347,74 @@ async function fetchAndProcessExperienceLanguages() {
   }
 }
 
+async function fetchAndProcessContributions() {
+  console.log("Fetching GitHub Contribution Calendar Data...");
+  try {
+    const res = await fetch(
+      `https://github-contributions-api.jogruber.de/v4/${openSource.githubUserName || "shaanpatel00"}?y=last`
+    );
+    if (res.ok) {
+      const data = await res.json();
+      await fs.writeFile(
+        "./src/shared/opensource/contributions.json",
+        JSON.stringify(data, null, 2)
+      );
+      console.log("contributions.json successfully written.\n");
+    } else {
+      console.error(`HTTP error ${res.status} fetching contributions data`);
+    }
+  } catch (err) {
+    console.error("Error fetching or writing contributions.json:", err);
+  }
+}
+
+async function fetchAndProcessRecentCommits() {
+  console.log("Fetching Recent Repository Commits...");
+  const repos = [
+    "shaanpatel00/AeroCore-V",
+    "shaanpatel00/ESP32-Fiber-Optic-Star-Map",
+    "shaanpatel00/shaanpatel00.github.io",
+  ];
+
+  const allCommits = [];
+
+  for (const repo of repos) {
+    try {
+      const res = await fetch(`https://api.github.com/repos/${repo}/commits?per_page=5`, {
+        headers: { "User-Agent": "node" },
+      });
+      if (res.ok) {
+        const commits = await res.json();
+        for (const c of commits) {
+          allCommits.push({
+            repo: repo.split("/")[1],
+            repoUrl: `https://github.com/${repo}`,
+            sha: c.sha ? c.sha.substring(0, 7) : "",
+            message: c.commit ? c.commit.message : "",
+            date: c.commit && c.commit.committer ? c.commit.committer.date : "",
+            url: c.html_url || "",
+          });
+        }
+      }
+    } catch (err) {
+      console.error(`Failed to fetch commits for ${repo}:`, err);
+    }
+  }
+
+  // Sort by date descending
+  allCommits.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  try {
+    await fs.writeFile(
+      "./src/shared/opensource/recent_commits.json",
+      JSON.stringify(allCommits, null, 2)
+    );
+    console.log("recent_commits.json successfully written.\n");
+  } catch (err) {
+    console.error("Error writing recent_commits.json:", err);
+  }
+}
+
 async function main() {
   try {
     await fs.mkdir("./src/shared/opensource", { recursive: true });
@@ -361,6 +429,8 @@ async function main() {
     fetchAndProcessOrgs(),
     fetchAndProcessPinnedProjects(),
     fetchAndProcessExperienceLanguages(),
+    fetchAndProcessContributions(),
+    fetchAndProcessRecentCommits(),
   ]);
 }
 

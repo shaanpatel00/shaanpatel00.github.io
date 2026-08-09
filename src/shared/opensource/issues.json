@@ -1,5 +1,5 @@
 {
-  "closed": 5,
+  "closed": 6,
   "data": [
     {
       "id": "I_kwDOOmHid88AAAABKP4FXg",
@@ -121,7 +121,7 @@
     },
     {
       "id": "I_kwDOLwh1E86ddiQJ",
-      "closed": false,
+      "closed": true,
       "title": "Update project descriptions in the home page",
       "createdAt": "2024-11-07T17:49:20Z",
       "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/issues/1",
@@ -250,6 +250,6 @@
       }
     }
   ],
-  "open": 5,
+  "open": 4,
   "totalCount": 10
 }
