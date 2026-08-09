@@ -14,16 +14,20 @@ class LogoLoader extends React.Component {
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          class="myRectangle"
+          className="myRectangle"
           d="M 169.11754,25.842547 323.15727,67.117378 281.88245,221.15712 127.84272,179.8823 Z"
           stroke={theme.body}
-          stroke-width="4"
+          strokeWidth="4"
+          strokeLinecap="square"
+          strokeLinejoin="round"
         />
         <path
-          class="myRectangle"
+          className="myRectangle"
           d="M 127.84271,67.11737 281.88245,25.842557 323.15728,179.8823 169.11755,221.15712 Z"
           stroke={theme.body}
-          stroke-width="4"
+          strokeWidth="4"
+          strokeLinecap="square"
+          strokeLinejoin="round"
         />
         <path
           class="letter"
