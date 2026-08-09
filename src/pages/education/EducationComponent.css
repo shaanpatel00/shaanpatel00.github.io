@@ -69,3 +69,48 @@
     flex-direction: column;
   }
 }
+
+.resume-spotlight-div {
+  margin: 40px 0;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.resume-spotlight-title {
+  font-family: "Google Sans Bold", sans-serif;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.resume-spotlight-sub {
+  font-family: "Google Sans Regular", sans-serif;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.resume-buttons-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-family: "Google Sans Medium", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}

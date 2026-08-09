@@ -72,18 +72,106 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Hardware and Embedded Systems",
+      title: "RTL Microarchitecture & Silicon Verification",
       fileName: "VisionaryTechImg",
       skills: [
-        "◈ Worked with various microcontrollers such as the ESP32, ESP8266, Arduino, MBED, Raspberry Pi, and more",
-        "◈ Built both hardware and software solutions for a custom Internet-of-Things (IoT) device",
-        "◈ Knowledge of core languages such as C, C++, Python, Verilog, VHDL, MIPS, RISC-V, and more",
-        "◈ Experience building peripherals from scratch and incorporating them with an Intel Altera FPGA",
-        "◈ Layout, design, and manually fabricate various PCBs using KiCad and Altium along with electroplating and laser cutting technologies",
+        "◈ Architecting 32-bit RISC-V SoC microarchitectures with custom single-cycle ALU ISA extensions.",
+        "◈ Designing multi-tier L1/L2 cache controllers with LRU replacement and virtual memory MMUs.",
+        "◈ Building automated C++/Verilator cycle-accurate simulation harnesses and regression testbenches.",
+        "◈ Executing logic synthesis, PPA analysis, and timing closure on Intel FPGAs using Quartus Prime.",
       ],
       softwareSkills: [
         {
-          skillName: "Arduino",
+          skillName: "SystemVerilog",
+          fontAwesomeClassname: "fas fa-microchip",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "Verilog",
+          fontAwesomeClassname: "mdi:chip",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "RISC-V Architecture",
+          fontAwesomeClassname: "fas fa-memory",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "Verilator",
+          fontAwesomeClassname: "fas fa-cogs",
+          style: {
+            color: "#00599C",
+          },
+        },
+        {
+          skillName: "Quartus Prime / FPGA",
+          fontAwesomeClassname: "simple-icons:intel",
+          style: {
+            color: "#0071C5",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "fas fa-file-code",
+          style: {
+            color: "#00599C",
+          },
+        },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
+          style: {
+            color: "#FCC624",
+          },
+        },
+      ],
+    },
+    {
+      title: "PCB Layout, Embedded & Hardware Systems",
+      fileName: "FullStackImg",
+      skills: [
+        "◈ Scripting bare-metal C++ firmware for ESP32/ARM microcontrollers with hardware ISRs & NVM drivers.",
+        "◈ Designing and fabricating multi-layer PCBs in KiCad & Altium with high-current MOSFET arrays.",
+        "◈ Characterizing signal integrity, power supply ripple, and transient response using digital oscilloscopes.",
+        "◈ Modeling thermal enclosures and mechanical CAD assemblies in SolidWorks for 3D prototyping.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "fas fa-file-code",
+          style: {
+            color: "#00599C",
+          },
+        },
+        {
+          skillName: "C",
+          fontAwesomeClassname: "fas fa-code",
+          style: {
+            color: "#A8B9CC",
+          },
+        },
+        {
+          skillName: "KiCad",
+          fontAwesomeClassname: "simple-icons:kicad",
+          style: {
+            color: "#314182",
+          },
+        },
+        {
+          skillName: "Altium Designer",
+          fontAwesomeClassname: "simple-icons:altiumdesigner",
+          style: {
+            color: "#A59162",
+          },
+        },
+        {
+          skillName: "ESP32 / Arduino",
           fontAwesomeClassname: "logos:arduino",
           style: {
             backgroundColor: "transparent",
@@ -97,54 +185,36 @@ const skills = {
           },
         },
         {
-          skillName: "Verilog",
-          fontAwesomeClassname: "mdi:chip",
+          skillName: "SolidWorks / CAD",
+          fontAwesomeClassname: "fas fa-cube",
           style: {
-            backgroundColor: "transparent",
-            color: "#000000",
-          },
-        },
-        {
-          skillName: "RISC-V",
-          fontAwesomeClassname: "simple-icons:riscv",
-          style: {
-            backgroundColor: "transparent",
-            color: "#252C4A",
-          },
-        },
-        {
-          skillName: "Altium",
-          fontAwesomeClassname: "simple-icons:altiumdesigner",
-          style: {
-            backgroundColor: "transparent",
-            color: "#A59162",
-          },
-        },
-        {
-          skillName: "KiCad",
-          fontAwesomeClassname: "simple-icons:kicad",
-          style: {
-            backgroundColor: "transparent",
-            color: "#314182",
+            color: "#E2231A",
           },
         },
       ],
     },
     {
-      title: "AeroCore-V: RISC-V Flight Control SoC",
-      fileName: "FullStackImg",
+      title: "GPU Clusters & Distributed Systems",
+      fileName: "CloudInfraImg",
       skills: [
-        "◈ Architected and synthesized a custom 32-bit RISC-V System-on-Chip (SoC) in SystemVerilog, deployed on a Terasic DE10-Standard Cyclone V FPGA for low-latency UAV flight control.",
-        "◈ Engineered a comprehensive memory hierarchy featuring a split direct-mapped L1 cache, a unified 4-way set-associative L2 cache with True LRU replacement, and an Sv32-compliant MMU with a hardware Page Table Walker for kernel/user isolation.",
-        "◈ Designed a custom single-cycle Proportional-Integral-Derivative (PID) ALU ISA extension (Opcode 0x0B) optimized for Q16.16 fixed-point math to accelerate flight stability control loops.",
-        '◈ Developed a bare-metal C cooperative kernel utilizing inline assembly to interface directly with custom hardware, and verified the RTL pre-synthesis using a C++/Verilator "Digital Twin" with a custom physics engine.',
+        "◈ Assembling 2.5kW parallel GPU computing clusters optimized for high-throughput compute workloads.",
+        "◈ Building socket-based distributed render engines in C++/SFML with low-latency synchronization.",
+        "◈ Automating distributed workload scheduling and fault recovery using Tcl & Bash across cluster nodes.",
+        "◈ Harnessing CUDA programming, PyTorch tensor acceleration, and AWS Cloud backend infrastructure.",
       ],
       softwareSkills: [
         {
-          skillName: "C",
-          fontAwesomeClassname: "fas fa-code",
+          skillName: "CUDA / GPU Programming",
+          fontAwesomeClassname: "simple-icons:nvidia",
           style: {
-            color: "#A8B9CC",
+            color: "#76B900",
+          },
+        },
+        {
+          skillName: "NVIDIA",
+          fontAwesomeClassname: "simple-icons:nvidia",
+          style: {
+            color: "#76B900",
           },
         },
         {
@@ -155,69 +225,86 @@ const skills = {
           },
         },
         {
-          skillName: "SystemVerilog",
-          fontAwesomeClassname: "fas fa-microchip",
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
           style: {
-            color: "#E34F26",
+            color: "#4584b6",
           },
         },
         {
-          skillName: "RISC-V Architecture",
-          fontAwesomeClassname: "fas fa-memory",
+          skillName: "AWS Cloud",
+          fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
-            color: "#1572B6",
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Linux / Bash",
+          fontAwesomeClassname: "simple-icons:linux",
+          style: {
+            color: "#FCC624",
+          },
+        },
+        {
+          skillName: "PostgreSQL / SQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#336791",
           },
         },
       ],
     },
     {
-      title: "ESP32 Fiber Optic Star Map",
-      fileName: "FullStackImg",
-      skills: [
-        "◈ Designed and manually fabricated a double-sided PCB in KiCad—integrating I2C logic level converters and 9 IRLB8721PBF N-Channel MOSFETs—to safely switch a high-current array of 36 ARGB LEDs.",
-        "◈ Developed asynchronous ESP32 firmware utilizing hardware interrupts (ISRs) and software debouncing for physical inputs without blocking the 5kHz PWM color-mixing loops.",
-        "◈ Implemented a self-hosted, responsive WiFi web server stored entirely in flash memory (PROGMEM) to enable remote control of lighting states, RGB hex values, and dynamic animations via HTTP requests.",
-        "◈ Utilized the ESP32 Preferences library to continuously read and write system states to flash memory, ensuring seamless restoration of customized lighting modes across system power cycles.",
-      ],
-      softwareSkills: [
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "fas fa-file-code",
-          style: {
-            color: "#00599C",
-          },
-        },
-        {
-          skillName: "IoT / WiFi",
-          fontAwesomeClassname: "fas fa-wifi",
-          style: {
-            color: "#00979D",
-          },
-        },
-        {
-          skillName: "Hardware/PCB Design",
-          fontAwesomeClassname: "fas fa-microchip",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "Web Server",
-          fontAwesomeClassname: "fas fa-server",
-          style: {
-            color: "#1572B6",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cryptocurrency Mining and Trading",
+      title: "Material Science & Polymer Fabrication",
       fileName: "DataScienceImg",
       skills: [
-        "◈ Designed and built two 2.5kW parallel computing systems from the component level, integrating a mixed array of twelve 12GB GDDR6 AMD and NVIDIA GPUs",
-        "◈ Building and setting up mining rigs for Ethereum, Bitcoin, and other cryptocurrencies",
-        "◈ Experience with trading on Exodus, Coinbase, Metamask and other exchanges",
-        "◈ In-depth knowledge of blockchain protocols and smart contracts used to mine cryptocurrencies",
+        "◈ Synthesizing eco-friendly saline-soluble polymer alternatives to single-use petrochemical plastics.",
+        "◈ Formulating hydrogels using 3D-printed molds, conducting Young's modulus tensile testing & SEM analysis.",
+        "◈ Conducting 150+ international laboratory research trials (Yale Outstanding Project Award recipient).",
+        "◈ Modeling complex experimental datasets and statistical simulations using Python, MATLAB & Excel.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+          style: {
+            color: "#4584b6",
+          },
+        },
+        {
+          skillName: "MATLAB",
+          fontAwesomeClassname: "devicon-matlab",
+        },
+        {
+          skillName: "Data Analysis / Excel",
+          fontAwesomeClassname: "vscode-icons:file-type-excel2",
+          style: {
+            color: "#20744a",
+          },
+        },
+        {
+          skillName: "Electron Microscopy / SEM",
+          fontAwesomeClassname: "fas fa-microscope",
+          style: {
+            color: "#613400",
+          },
+        },
+        {
+          skillName: "Elsevier",
+          fontAwesomeClassname: "academicons:elsevier-square",
+          style: {
+            color: "#ff4103",
+          },
+        },
+      ],
+    },
+    {
+      title: "Crypto Mining & Blockchain Infrastructure",
+      fileName: "CloudInfraImg",
+      skills: [
+        "◈ Constructing high-density 2.5kW multi-GPU parallel compute rigs with custom voltage/power tuning.",
+        "◈ Building and maintaining proof-of-work infrastructure across Ethereum, Bitcoin, and altcoin networks.",
+        "◈ Managing digital asset security, Web3 wallets, and decentralized finance (DeFi) protocols.",
       ],
       softwareSkills: [
         {
@@ -262,13 +349,13 @@ const skills = {
       ],
     },
     {
-      title: "3D Modeling and Graphic Design",
+      title: "3D Design, Animation & Graphics",
       fileName: "DesignImg",
       skills: [
-        "◈ Designing and texturing 3D models with custom HDRI maps and prodecual textures",
-        "◈ Customizing vector logo designs and building logos from scratch",
-        "◈ Produced high-quality renders and animations for product visualization and marketing",
-        "◈ Experience designing 3D models for 3D printing and CNC machining, along with vector designs for laser cutting and engraving",
+        "◈ Modeling, texturing, and rendering 3D products with procedural PBR materials and HDRI lighting.",
+        "◈ Designing vector brand assets, multi-layer graphics, and logos in Adobe Illustrator & Inkscape.",
+        "◈ Producing motion graphic animations and product visualizers in Blender, After Effects & Unity.",
+        "◈ Engineering 3D assets optimized for additive manufacturing (3D printing), CNC, and laser cutting.",
       ],
       softwareSkills: [
         {
@@ -291,10 +378,6 @@ const skills = {
           },
         },
         {
-          skillName: "Adobe Animate",
-          fontAwesomeClassname: "logos:adobe-animate",
-        },
-        {
           skillName: "Blender",
           fontAwesomeClassname: "logos:blender",
         },
@@ -305,164 +388,6 @@ const skills = {
             color: "#222c37",
           },
         },
-        {
-          skillName: "Decentraland",
-          fontAwesomeClassname: "simple-icons:decentraland",
-          style: {
-            color: "#333333",
-          },
-        },
-      ],
-    },
-    {
-      title: "Professional Laboratory Research",
-      fileName: "FullStackImg",
-      skills: [
-        "◈ Worked in a professional laboratory setting with international researchers in South Korea",
-        "◈ Completed 150 trials in my recent project and awarded the Yale Outstanding Project award",
-        "◈ Developed professional communication skills, tensile testing skills, and data analysis skills",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#4584b6",
-          },
-        },
-        {
-          skillName: "Matlab",
-          fontAwesomeClassname: "devicon-matlab",
-        },
-        {
-          skillName: "Excel",
-          fontAwesomeClassname: "vscode-icons:file-type-excel2",
-          style: {
-            color: "#20744a",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "Elsevier",
-          fontAwesomeClassname: "academicons:elsevier-square",
-          style: {
-            color: "#ff4103",
-          },
-        },
-        /*
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-        */
-      ],
-    },
-    {
-      title: "Basic Cybersecurity and Web Protection",
-      fileName: "CloudInfraImg",
-      skills: [
-        "◈ Proficiency in writing SQL queries to retrieve, insert, update, and delete data from databases, along with how to prevent common SQL injection attacks",
-        "◈ Experience with packet tracing in order to analyze network traffic, recognize anomalies in traffic, packet inspection, and security monitoring",
-        "◈ Secured DBMS against unauthorized access and data breaches, including implementing user authentication and authorization, encryption of sensitive data, and configuring access control permissions",
-        "◈ Understanding of common cyber threats such as phishing, malware, and social engineering",
-      ],
-      softwareSkills: [
-        {
-          skillName: "SQL",
-          fontAwesomeClassname: "tabler:sql",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "Wireshark",
-          fontAwesomeClassname: "simple-icons:wireshark",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "SSH",
-          fontAwesomeClassname: "mdi:ssh",
-          style: {
-            color: "#613400",
-          },
-        },
-        {
-          skillName: "DBMS",
-          fontAwesomeClassname: "material-symbols:database",
-          style: {
-            color: "#333333",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        /*
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
-        */
       ],
     },
   ],
@@ -494,32 +419,19 @@ const degrees = {
   degrees: [
     {
       title: "Georgia Institute of Technology",
-      subtitle: "B.S. in Computer Engineering",
+      subtitle:
+        "B.S. in Computer Engineering & M.S. in Electrical & Computer Engineering",
       logo_path: "gt_logo.png",
       alt_name: "Georgia Tech",
-      duration: "2023 - Present",
+      duration: "Aug 2023 – May 2028 (BS/MS)",
       descriptions: [
-        "◈ I am currently a third-year student at Georgia Tech pursuing a degree in Computer Engineering.",
-        "◈ As of now, I have a solid understanding of data structures and algorithms, the interfaces between hardware and software through assembly and VHDL, and microarchitecture and ISA design.",
-        "◈ I am also learning about VLSI, semiconductor fabrication, and CUDA programming.",
+        "◈ Minor in Artificial Intelligence & Machine Learning | Cumulative GPA: 3.57",
+        "◈ SiliconJackets Digital Design Team Lead: Directing RTL development, SystemVerilog verification, and FPGA prototyping for collegiate rocket avionics.",
+        "◈ Campus & Student Leadership: GTXR Executive Board, Captain of GT Ramblin' Raas, and Georgia Tech HIVE Makerspace Student Leader & Peer Instructor.",
+        "◈ Relevant Coursework: Computer Architecture & Microarchitecture, SystemVerilog & FPGA Design, Operating Systems, Advanced VLSI, CUDA Parallel Programming, Data Structures & Algorithms, Signals & Systems, Linear Algebra, PCB Layout & Embedded Firmware.",
       ],
       website_link: "https://gatech.edu",
     },
-    /**
-    {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://www.indiana.edu/",
-    },
-    */
   ],
 };
 

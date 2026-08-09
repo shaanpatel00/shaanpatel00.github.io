@@ -39,6 +39,94 @@ class Education extends Component {
             </div>
           </Fade>
           <Educations theme={this.props.theme} />
+
+          <Fade bottom duration={2000} distance="40px">
+            <div
+              className="resume-spotlight-div"
+              style={{
+                backgroundColor: theme.highlight,
+                border: `1px solid ${theme.secondaryText}22`,
+              }}
+            >
+              <h2
+                className="resume-spotlight-title"
+                style={{ color: theme.text }}
+              >
+                <span role="img" aria-label="documents">
+                  📄
+                </span>{" "}
+                Specialized Resumes for Recruiters
+              </h2>
+              <p
+                className="resume-spotlight-sub"
+                style={{ color: theme.secondaryText }}
+              >
+                Tailored versions highlighting specific domain expertise in
+                Silicon Verification, FPGA/Latency, and Hardware/Embedded
+                Engineering:
+              </p>
+              <div className="resume-buttons-div">
+                <a
+                  href={
+                    process.env.PUBLIC_URL +
+                    "/resumes/Shaan_Patel_Resume_RTL_Verification.pdf"
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="resume-btn"
+                  style={{
+                    backgroundColor: theme.headerColor,
+                    color: theme.text,
+                  }}
+                >
+                  <i
+                    className="fas fa-file-pdf"
+                    style={{ color: "#E34F26" }}
+                  ></i>
+                  RTL, SoC & Verification
+                </a>
+                <a
+                  href={
+                    process.env.PUBLIC_URL +
+                    "/resumes/Shaan_Patel_Resume_FPGA_Latency.pdf"
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="resume-btn"
+                  style={{
+                    backgroundColor: theme.headerColor,
+                    color: theme.text,
+                  }}
+                >
+                  <i
+                    className="fas fa-file-pdf"
+                    style={{ color: "#0071C5" }}
+                  ></i>
+                  FPGA, Verilog & Latency
+                </a>
+                <a
+                  href={
+                    process.env.PUBLIC_URL +
+                    "/resumes/Shaan_Patel_Resume_PCB_Embedded.pdf"
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="resume-btn"
+                  style={{
+                    backgroundColor: theme.headerColor,
+                    color: theme.text,
+                  }}
+                >
+                  <i
+                    className="fas fa-file-pdf"
+                    style={{ color: "#2EC866" }}
+                  ></i>
+                  PCB Layout & Firmware
+                </a>
+              </div>
+            </div>
+          </Fade>
+
           {certifications.certifications.length > 0 ? (
             <Certifications theme={this.props.theme} />
           ) : null}
