@@ -54,6 +54,30 @@ class DegreeCard extends Component {
                   </p>
                 );
               })}
+              {degree.leadershipBadges && (
+                <div className="leadership-badges-div">
+                  {degree.leadershipBadges.map((badge, idx) => (
+                    <span
+                      key={idx}
+                      className="leadership-badge"
+                      style={{
+                        backgroundColor: theme.highlight,
+                        color: theme.text,
+                        border: `1px solid ${theme.secondaryText}33`,
+                      }}
+                    >
+                      <i
+                        className="fas fa-award"
+                        style={{
+                          marginRight: "6px",
+                          color: theme.imageHighlight,
+                        }}
+                      ></i>
+                      {badge}
+                    </span>
+                  ))}
+                </div>
+              )}
               {degree.website_link && (
                 <a
                   href={degree.website_link}

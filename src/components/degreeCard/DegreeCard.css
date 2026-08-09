@@ -146,3 +146,26 @@
     font-size: 16px;
   }
 }
+
+.leadership-badges-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 15px 10px;
+}
+
+.leadership-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-family: "Google Sans Medium", sans-serif;
+  font-size: 13px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease-in-out;
+}
+
+.leadership-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}

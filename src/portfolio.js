@@ -370,18 +370,33 @@ const degrees = {
   degrees: [
     {
       title: "Georgia Institute of Technology",
-      subtitle:
-        "B.S. in Computer Engineering & M.S. in Electrical & Computer Engineering",
+      subtitle: "B.S. in Computer Engineering",
       logo_path: "gt_logo.png",
       alt_name: "Georgia Tech",
-      duration: "Aug 2023 – May 2028 (BS/MS)",
+      duration: "Aug 2023 – May 2027",
       descriptions: [
-        "◈ Minor in Artificial Intelligence & Machine Learning | Cumulative GPA: 3.57",
-        "◈ SiliconJackets Digital Design Team Lead: Directing RTL development, SystemVerilog verification, and FPGA prototyping for collegiate rocket avionics.",
-        "◈ Campus & Student Leadership: GTXR Executive Board, Captain of GT Ramblin' Raas, and Georgia Tech HIVE Makerspace Student Leader & Peer Instructor.",
+        "◈ Minor: Applications of AI & ML | Cumulative GPA: 3.57",
         "◈ Relevant Coursework: Computer Architecture & Microarchitecture, SystemVerilog & FPGA Design, Operating Systems, Advanced VLSI, CUDA Parallel Programming, Data Structures & Algorithms, Signals & Systems, Linear Algebra, PCB Layout & Embedded Firmware.",
       ],
+      leadershipBadges: [
+        "SiliconJackets Digital Design Team Lead",
+        "GTXR Executive Board",
+        "Captain of GT Ramblin' Raas",
+        "GT HIVE Makerspace Student Leader",
+      ],
       website_link: "https://gatech.edu",
+    },
+    {
+      title: "Georgia Institute of Technology",
+      subtitle: "M.S. in Electrical and Computer Engineering (BS/MS Program)",
+      logo_path: "gt_logo.png",
+      alt_name: "Georgia Tech",
+      duration: "Aug 2027 – May 2028",
+      descriptions: [
+        "◈ Accelerated BS/MS degree program at Georgia Tech ECE.",
+        "◈ Advanced Specialization in Computer Architecture, Microarchitecture, VLSI Systems & High-Performance Compute Rigs.",
+      ],
+      website_link: "https://ece.gatech.edu",
     },
   ],
 };
