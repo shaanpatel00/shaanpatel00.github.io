@@ -157,7 +157,7 @@ export default class VisionaryTechImg extends Component {
             <path
               d="m 309.466,158.392 a 24.992,24.992 0 0 0 -24.992,24.992 v 76.526 a 8.79,8.79 0 0 0 8.79,8.79 h 59.944 a 42.769,42.769 0 0 0 42.769,-42.769 v -58.749 a 8.79,8.79 0 0 0 -8.79,-8.79 z"
               transform="translate(-281.615,-155.534)"
-              fill="#ffffff"
+              fill={theme.compImgHighlight}
               id="path21"
             />
             <g transform="translate(8.918,27.352)" id="g25">
@@ -197,7 +197,7 @@ export default class VisionaryTechImg extends Component {
             <path
               d="m 146.194,343.887 a 19.846,19.846 0 0 0 -19.846,19.846 V 424.5 a 6.98,6.98 0 0 0 6.98,6.98 h 47.6 a 33.962,33.962 0 0 0 33.962,-33.962 v -46.65 a 6.98,6.98 0 0 0 -6.98,-6.98 h -61.716 z"
               transform="translate(-124.079,-341.617)"
-              fill="#ffffff"
+              fill={theme.compImgHighlight}
               id="path27"
             />
             <g transform="translate(7.081,21.719)" id="g31">
@@ -237,7 +237,7 @@ export default class VisionaryTechImg extends Component {
             <path
               d="M 112.941,151.619 A 14.677,14.677 0 0 0 98.264,166.3 v 44.939 a 5.162,5.162 0 0 0 5.162,5.162 h 35.2 a 25.116,25.116 0 0 0 25.116,-25.116 v -34.5 a 5.162,5.162 0 0 0 -5.162,-5.162 h -45.639 z"
               transform="translate(-96.586,-149.941)"
-              fill="#ffffff"
+              fill={theme.compImgHighlight}
               id="path33"
             />
             <g transform="translate(5.237,16.062)" id="g37">

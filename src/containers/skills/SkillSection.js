@@ -8,6 +8,7 @@ import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
 import VisionaryTechImg from "./VisionaryTechImg";
+import LocalServerImg from "./LocalServerImg";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
@@ -16,6 +17,8 @@ function GetSkillSvg(props) {
     return <FullStackImg theme={props.theme} />;
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
+  else if (props.fileName === "LocalServerImg")
+    return <LocalServerImg theme={props.theme} />;
   else if (props.fileName === "VisionaryTechImg")
     return <VisionaryTechImg theme={props.theme} />;
   return <DesignImg theme={props.theme} />;

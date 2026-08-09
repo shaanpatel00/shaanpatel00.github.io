@@ -177,7 +177,7 @@ const skills = {
     },
     {
       title: "GPU Clusters & Distributed Systems",
-      fileName: "CloudInfraImg",
+      fileName: "LocalServerImg",
       skills: [
         "◈ Assembling 2.5kW parallel GPU computing clusters optimized for high-throughput compute workloads.",
         "◈ Building socket-based distributed render engines in C++/SFML with low-latency synchronization.",
