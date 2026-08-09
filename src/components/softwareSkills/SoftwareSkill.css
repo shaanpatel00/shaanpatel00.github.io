@@ -8,10 +8,31 @@
 }
 
 .software-skill-inline {
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  font-family: "Google Sans Regular";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  margin-right: 14px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.035);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.software-skill-inline:hover {
+  transform: translateY(-4px) scale(1.08);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.07);
+}
+
+.software-skill-inline > .iconify {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .software-skill-inline > i {
@@ -23,5 +44,23 @@
 }
 
 .skill-image {
-  height: 48px;
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}
+
+/* Custom Aesthetic Tooltip */
+.custom-skill-tooltip .tooltip-inner {
+  background: #1e1e24 !important;
+  color: #ffffff !important;
+  font-family: "Google Sans Medium", sans-serif !important;
+  font-size: 13px !important;
+  padding: 6px 14px !important;
+  border-radius: 8px !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25) !important;
+  letter-spacing: 0.3px !important;
+}
+
+.custom-skill-tooltip .arrow::before {
+  border-top-color: #1e1e24 !important;
 }

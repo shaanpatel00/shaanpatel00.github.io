@@ -83,28 +83,28 @@ const skills = {
       softwareSkills: [
         {
           skillName: "SystemVerilog",
-          fontAwesomeClassname: "fas fa-microchip",
+          fontAwesomeClassname: "mdi:chip",
           style: {
             color: "#E34F26",
           },
         },
         {
           skillName: "Verilog",
-          fontAwesomeClassname: "mdi:chip",
+          fontAwesomeClassname: "ph:cpu-bold",
           style: {
             color: "#000000",
           },
         },
         {
           skillName: "RISC-V Architecture",
-          fontAwesomeClassname: "fas fa-memory",
+          fontAwesomeClassname: "simple-icons:riscv",
           style: {
-            color: "#1572B6",
+            color: "#252C4A",
           },
         },
         {
           skillName: "Verilator",
-          fontAwesomeClassname: "fas fa-cogs",
+          fontAwesomeClassname: "ph:gear-six-bold",
           style: {
             color: "#00599C",
           },
@@ -118,17 +118,11 @@ const skills = {
         },
         {
           skillName: "C++",
-          fontAwesomeClassname: "fas fa-file-code",
-          style: {
-            color: "#00599C",
-          },
+          fontAwesomeClassname: "logos:c-plusplus",
         },
         {
           skillName: "Linux",
-          fontAwesomeClassname: "simple-icons:linux",
-          style: {
-            color: "#FCC624",
-          },
+          fontAwesomeClassname: "logos:linux-tux",
         },
       ],
     },
@@ -144,17 +138,11 @@ const skills = {
       softwareSkills: [
         {
           skillName: "C++",
-          fontAwesomeClassname: "fas fa-file-code",
-          style: {
-            color: "#00599C",
-          },
+          fontAwesomeClassname: "logos:c-plusplus",
         },
         {
           skillName: "C",
-          fontAwesomeClassname: "fas fa-code",
-          style: {
-            color: "#A8B9CC",
-          },
+          fontAwesomeClassname: "logos:c",
         },
         {
           skillName: "KiCad",
@@ -173,20 +161,14 @@ const skills = {
         {
           skillName: "ESP32 / Arduino",
           fontAwesomeClassname: "logos:arduino",
-          style: {
-            backgroundColor: "transparent",
-          },
         },
         {
           skillName: "Raspberry Pi",
           fontAwesomeClassname: "logos:raspberry-pi",
-          style: {
-            backgroundColor: "transparent",
-          },
         },
         {
           skillName: "SolidWorks / CAD",
-          fontAwesomeClassname: "fas fa-cube",
+          fontAwesomeClassname: "mdi:cube-outline",
           style: {
             color: "#E2231A",
           },
@@ -205,7 +187,7 @@ const skills = {
       softwareSkills: [
         {
           skillName: "CUDA / GPU Programming",
-          fontAwesomeClassname: "simple-icons:nvidia",
+          fontAwesomeClassname: "ph:cpu-bold",
           style: {
             color: "#76B900",
           },
@@ -219,38 +201,26 @@ const skills = {
         },
         {
           skillName: "C++",
-          fontAwesomeClassname: "fas fa-file-code",
-          style: {
-            color: "#00599C",
-          },
+          fontAwesomeClassname: "logos:c-plusplus",
         },
         {
           skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#4584b6",
-          },
+          fontAwesomeClassname: "logos:python",
         },
         {
           skillName: "AWS Cloud",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
+          fontAwesomeClassname: "logos:aws",
         },
         {
           skillName: "Linux / Bash",
-          fontAwesomeClassname: "simple-icons:linux",
+          fontAwesomeClassname: "ph:terminal-window-bold",
           style: {
-            color: "#FCC624",
+            color: "#2D3748",
           },
         },
         {
           skillName: "PostgreSQL / SQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
+          fontAwesomeClassname: "logos:postgresql",
         },
       ],
     },
@@ -266,32 +236,26 @@ const skills = {
       softwareSkills: [
         {
           skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#4584b6",
-          },
+          fontAwesomeClassname: "logos:python",
         },
         {
           skillName: "MATLAB",
-          fontAwesomeClassname: "devicon-matlab",
+          fontAwesomeClassname: "devicon:matlab",
         },
         {
           skillName: "Data Analysis / Excel",
           fontAwesomeClassname: "vscode-icons:file-type-excel2",
-          style: {
-            color: "#20744a",
-          },
         },
         {
           skillName: "Electron Microscopy / SEM",
-          fontAwesomeClassname: "fas fa-microscope",
+          fontAwesomeClassname: "mdi:microscope",
           style: {
             color: "#613400",
           },
         },
         {
           skillName: "Elsevier",
-          fontAwesomeClassname: "academicons:elsevier-square",
+          fontAwesomeClassname: "simple-icons:elsevier",
           style: {
             color: "#ff4103",
           },
@@ -309,42 +273,29 @@ const skills = {
       softwareSkills: [
         {
           skillName: "Metamask",
-          fontAwesomeClassname: "logos-metamask-icon",
-          style: {
-            backgroundColor: "transparent",
-          },
+          fontAwesomeClassname: "logos:metamask-icon",
         },
         {
           skillName: "Coinbase",
-          fontAwesomeClassname: "arcticons:coinbase",
+          fontAwesomeClassname: "simple-icons:coinbase",
           style: {
-            backgroundColor: "transparent",
-            color: "#0052ff",
+            color: "#0052FF",
           },
         },
         {
           skillName: "Exodus",
-          fontAwesomeClassname: "arcticons:exodus",
+          fontAwesomeClassname: "ph:wallet-bold",
           style: {
-            backgroundColor: "transparent",
-            color: "#000000",
+            color: "#6B46C1",
           },
         },
         {
           skillName: "Ethereum",
-          fontAwesomeClassname: "mdi:ethereum",
-          style: {
-            backgroundColor: "transparent",
-            color: "#62688f",
-          },
+          fontAwesomeClassname: "logos:ethereum",
         },
         {
           skillName: "Bitcoin",
-          fontAwesomeClassname: "mdi:bitcoin",
-          style: {
-            backgroundColor: "transparent",
-            color: "#f7931a",
-          },
+          fontAwesomeClassname: "logos:bitcoin",
         },
       ],
     },
