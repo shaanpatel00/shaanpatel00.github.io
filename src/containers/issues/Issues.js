@@ -17,9 +17,10 @@ class Issues extends Component {
           </Fade>
         </div>
         <div className="issues-body-div">
-          {issuesData["data"].map((issue) => {
-            return <IssueCard issue={issue} />;
-          })}
+          {Array.isArray(issuesData?.data) &&
+            issuesData["data"].map((issue, i) => {
+              return <IssueCard key={issue.id || i} issue={issue} />;
+            })}
         </div>
       </div>
     );

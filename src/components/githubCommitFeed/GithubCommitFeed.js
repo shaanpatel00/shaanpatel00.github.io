@@ -3,7 +3,9 @@ import "./GithubCommitFeed.css";
 import recentCommitsData from "../../shared/opensource/recent_commits.json";
 
 const GithubCommitFeed = ({ theme }) => {
-  if (!recentCommitsData || recentCommitsData.length === 0) {
+  const commits = Array.isArray(recentCommitsData) ? recentCommitsData : [];
+
+  if (commits.length === 0) {
     return null;
   }
 
@@ -32,7 +34,7 @@ const GithubCommitFeed = ({ theme }) => {
       </div>
 
       <div className="github-commit-feed-list">
-        {recentCommitsData.slice(0, 8).map((commit, index) => (
+        {commits.slice(0, 8).map((commit, index) => (
           <div
             key={index}
             className="github-commit-card"

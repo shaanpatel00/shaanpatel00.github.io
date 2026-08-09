@@ -11,20 +11,24 @@ const LEVEL_COLORS = {
 };
 
 const GithubContributionCalendar = ({ theme }) => {
-  const days = contributionsData?.contributions || [];
+  const days = Array.isArray(contributionsData?.contributions)
+    ? contributionsData.contributions
+    : [];
   const totalLastYear =
-    contributionsData?.total?.lastYear ||
-    days.reduce((a, b) => a + (b.count || 0), 0);
+    contributionsData?.total?.lastYear ??
+    days.reduce((a, b) => a + (b?.count || 0), 0);
 
-  // Group 365 days into 53 weeks (columns of 7 days)
+  // Group days into 53 weeks (columns of 7 days)
   const weeks = [];
   let currentWeek = [];
 
   days.forEach((day, index) => {
-    currentWeek.push(day);
-    if (currentWeek.length === 7 || index === days.length - 1) {
-      weeks.push(currentWeek);
-      currentWeek = [];
+    if (day) {
+      currentWeek.push(day);
+      if (currentWeek.length === 7 || index === days.length - 1) {
+        weeks.push(currentWeek);
+        currentWeek = [];
+      }
     }
   });
 

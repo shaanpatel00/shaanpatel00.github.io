@@ -11,9 +11,9 @@ class PullRequestChart extends Component {
       datasets: [
         {
           data: [
-            PullRequestData["open"],
-            PullRequestData["merged"],
-            PullRequestData["closed"],
+            PullRequestData ? PullRequestData["open"] || 0 : 0,
+            PullRequestData ? PullRequestData["merged"] || 0 : 0,
+            PullRequestData ? PullRequestData["closed"] || 0 : 0,
           ],
           backgroundColor: ["#28a745", "#6f42c1", "#d73a49"],
           hoverBackgroundColor: ["#28a745dd", "#6f42c1dd", "#d73a49dd"],
