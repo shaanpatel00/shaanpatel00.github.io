@@ -119,121 +119,35 @@ class LogoLoader extends React.Component {
             dangerouslySetInnerHTML={{
               __html: `
 
-      .signature1{
-			stroke-dasharray: 800;
-			stroke-dashoffset: 800;
-			-webkit-animation: dash 0.5s linear forwards 0.2s;
-			-o-animation: dash 0.5s linear forwards 0.2s;
-			-moz-animation: dash 0.5s linear forwards 0.2s;
-			animation: dash 0.5s linear forwards 0.2s;
-		}
-		.signature2{
-			stroke-dasharray: 800;
-			stroke-dashoffset: 800;
-			-webkit-animation: dash 0.5s linear forwards 0.3s;
-			-o-animation: dash 0.5s linear forwards 0.3s;
-			-moz-animation: dash 0.5s linear forwards 0.3s;
-			animation: dash 0.5s linear forwards 0.3s;
-		}
-		.signature3{
-			stroke-dasharray: 800;
-			stroke-dashoffset: 800;
-			-webkit-animation: dash 0.5s linear forwards 0.4s;
-			-o-animation: dash 0.5s linear forwards 0.4s;
-			-moz-animation: dash 0.5s linear forwards 0.4s;
-			animation: dash 0.5s linear forwards 0.4s;
-		}
-		.signature4{
-			stroke-dasharray: 800;
-			stroke-dashoffset: 800;
-			-webkit-animation: dash 0.5s linear forwards 0.5s;
-			-o-animation: dash 0.5s linear forwards 0.5s;
-			-moz-animation: dash 0.5s linear forwards 0.5s;
-			animation: dash 0.5s linear forwards 0.5s;
-		}
-		.signature5{
-			stroke-dasharray: 800;
-			stroke-dashoffset: 800;
-			-webkit-animation: dash 0.5s linear forwards 0.6s;
-			-o-animation: dash 0.5s linear forwards 0.6s;
-			-moz-animation: dash 0.5s linear forwards 0.6s;
-			animation: dash 0.5s linear forwards 0.6s;
-		}
-		.signature6{
-			stroke-dasharray: 800;
-			stroke-dashoffset: 800;
-			-webkit-animation: dash 0.5s linear forwards 0.7s;
-			-o-animation: dash 0.5s linear forwards 0.7s;
-			-moz-animation: dash 0.5s linear forwards 0.7s;
-			animation: dash 0.5s linear forwards 0.7s;
-		}
-		.signature7{
-			stroke-dasharray: 800;
-			stroke-dashoffset: 800;
-			-webkit-animation: dash 0.5s linear forwards 0.8s;
-			-o-animation: dash 0.5s linear forwards 0.8s;
-			-moz-animation: dash 0.5s linear forwards 0.8s;
-			animation: dash 0.5s linear forwards 0.8s;
-		}
-		.signature8{
-			stroke-dasharray: 800;
-			stroke-dashoffset: 800;
-			-webkit-animation: dash 0.5s linear forwards 0.9s;
-			-o-animation: dash 0.5s linear forwards 0.9s;
-			-moz-animation: dash 0.5s linear forwards 0.9s;
-			animation: dash 0.5s linear forwards 0.9s;
-		}
-		.signature9{
-			stroke-dasharray: 800;
-			stroke-dashoffset: 800;
-			-webkit-animation: dash 0.5s linear forwards 1.0s;
-			-o-animation: dash 0.5s linear forwards 1.0s;
-			-moz-animation: dash 0.5s linear forwards 1.0s;
-			animation: dash 0.5s linear forwards 1.0s;
-		}
-
-		.signature{
-			stroke-dasharray: 800;
-			stroke-dashoffset: 800;
-			-webkit-animation: dash 8s linear forwards 0.5s;
-			-o-animation: dash 8s linear forwards 0.5s;
-			-moz-animation: dash 8s linear forwards 0.5s;
-			animation: dash 8s linear forwards 0.5s;
-		}
+		.signature1{ stroke-dasharray: 800; stroke-dashoffset: 800; animation: dash 0.4s linear forwards 0.1s; }
+		.signature2{ stroke-dasharray: 800; stroke-dashoffset: 800; animation: dash 0.4s linear forwards 0.15s; }
+		.signature3{ stroke-dasharray: 800; stroke-dashoffset: 800; animation: dash 0.4s linear forwards 0.2s; }
+		.signature4{ stroke-dasharray: 800; stroke-dashoffset: 800; animation: dash 0.4s linear forwards 0.25s; }
+		.signature5{ stroke-dasharray: 800; stroke-dashoffset: 800; animation: dash 0.4s linear forwards 0.3s; }
+		.signature6{ stroke-dasharray: 800; stroke-dashoffset: 800; animation: dash 0.4s linear forwards 0.35s; }
+		.signature7{ stroke-dasharray: 800; stroke-dashoffset: 800; animation: dash 0.4s linear forwards 0.4s; }
+		.signature8{ stroke-dasharray: 800; stroke-dashoffset: 800; animation: dash 0.4s linear forwards 0.45s; }
+		.signature9{ stroke-dasharray: 800; stroke-dashoffset: 800; animation: dash 0.4s linear forwards 0.5s; }
 
 		.letter{
 			opacity: 0;
-			-webkit-animation: fadein 0.75s linear forwards 1.5s;
-			-o-animation: fadein 0.75s linear forwards 1.5s;
-			-moz-animation: fadein 0.75s linear forwards 1.5s;
-			animation: fadein 0.75s linear forwards 1.5s;
+			animation: fadein 0.6s linear forwards 1.0s;
 		}
 
-		@-webkit-keyframes fadein{
-			from{
-				opacity: 0;
-			}
-			to{
-				opacity: 1;
-			}
+		@keyframes fadein{
+			from{ opacity: 0; }
+			to{ opacity: 1; }
 		}
 
-      .myRectangle{
+		.myRectangle{
 			stroke-dasharray: 800;
 			stroke-dashoffset: 800;
-			-webkit-animation: dash 1.5s ease-in-out forwards 0.2s;
-			-o-animation: dash 1.5s ease-in-out forwards 0.2s;
-			-moz-animation: dash 1.5s ease-in-out forwards 0.2s;
-			animation: dash 1.5s ease-in-out forwards 0.2s;
+			animation: dash 1.1s ease-in-out forwards 0.1s;
 		}
 
-		@-webkit-keyframes dash{
-			from{
-				stroke-dashoffset: 800;
-			}
-			to{
-				stroke-dashoffset: 0;
-			}
+		@keyframes dash{
+			from{ stroke-dashoffset: 800; }
+			to{ stroke-dashoffset: 0; }
 		}
     `,
             }}
