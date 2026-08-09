@@ -140,9 +140,13 @@
 }
 
 @media (max-width: 768px) {
+  .contact-heading-img-div {
+    margin-bottom: 15px;
+  }
+
   .contact-heading-text {
     font-size: 30px;
-    margin-top: 0px;
+    margin-top: 25px;
   }
 
   .blog-heading-text {

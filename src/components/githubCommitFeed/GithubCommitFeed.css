@@ -86,3 +86,45 @@
 .github-commit-sha-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .github-commit-feed-main {
+    margin: 20px auto;
+    width: 95%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .github-commit-feed-title {
+    font-size: 22px;
+  }
+
+  .github-commit-feed-subtitle {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .github-commit-feed-list {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .github-commit-card {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 14px 16px;
+  }
+
+  .github-commit-message {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  .github-commit-repo-badge {
+    max-width: 65%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

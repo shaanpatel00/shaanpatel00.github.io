@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Shaan Patel",
   subHeading: "Computer Engineering Student @ Georgia Tech",
-  logo_name: "ShaanPatel",
+  logo_name: "Shaan Patel",
   nickname: "",
   subTitle:
     "Specialized in full-cycle hardware development, from FPGA design to PCB fabrication. Proficient in Python, C++, and SystemVerilog with a background in GPU programming and VLSI design.",

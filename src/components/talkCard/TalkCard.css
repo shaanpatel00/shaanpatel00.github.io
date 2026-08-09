@@ -77,6 +77,12 @@
   }
 }
 @media (max-width: 768px) {
+  .rectangle {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    min-height: 300px;
+  }
   .mask {
     clip-path: none;
     position: relative;

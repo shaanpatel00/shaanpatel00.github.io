@@ -32,11 +32,21 @@
 }
 
 @media (max-width: 768px) {
+  .main-div {
+    width: 95%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
   .os-charts-header {
     font-size: 25px;
   }
 
   .os-charts-body-div {
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
   }
 }

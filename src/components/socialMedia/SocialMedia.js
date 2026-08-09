@@ -21,7 +21,7 @@ export default function socialMedia(props) {
           <a
             key={i}
             href={media.link}
-            className={`icon-button`}
+            className={`icon-button ${media.name.toLowerCase()}`}
             target="_blank"
             rel="noopener noreferrer"
           >

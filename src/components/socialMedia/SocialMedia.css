@@ -62,6 +62,10 @@
   transition: 0.3s ease-in;
 } */
 
+.icon-button.linkedin i {
+  background-color: #0077b5 !important;
+}
+
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {

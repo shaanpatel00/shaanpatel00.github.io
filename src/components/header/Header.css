@@ -42,7 +42,8 @@
   font-family: "Agustina Regular";
   font-weight: bold;
   padding: 0 10px;
-  /* color: #55198b; */
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
 }
 
 /* menu */
@@ -69,7 +70,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: currentColor;
   display: block;
   height: 2px;
   position: relative;
@@ -79,7 +80,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: currentColor;
   content: "";
   display: block;
   height: 100%;
@@ -121,6 +122,29 @@
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
+}
+
+@media (max-width: 768px) {
+  .header {
+    max-width: 95%;
+    padding: 15px 10px;
+  }
+  .header .logo {
+    margin-top: 5px;
+    font-size: 1.3em;
+  }
+  .header .menu-icon {
+    padding: 15px 10px;
+  }
+  .header li a {
+    padding: 14px 16px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .header .menu {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
 }
 
 /* 48em = 768px */

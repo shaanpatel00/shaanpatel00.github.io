@@ -63,3 +63,17 @@ body {
     line-height: normal;
   }
 }
+
+@media (max-width: 768px) {
+  html,
+  body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  * {
+    -webkit-overflow-scrolling: touch;
+  }
+}

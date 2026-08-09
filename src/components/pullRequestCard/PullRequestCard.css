@@ -193,9 +193,11 @@
 
 @media (max-width: 768px) {
   .pull-request-card {
-    width: 85%;
-    /* margin-left: 5%;
-        margin-right: 5%; */
+    width: 95%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto 15px auto;
+    display: block;
   }
 
   .pr-top {
@@ -203,12 +205,17 @@
   }
 
   .changes-repo {
-    width: 87%;
+    width: 100%;
+  }
+
+  .parent-repo {
+    word-break: break-word;
+    overflow-wrap: anywhere;
   }
 
   .files-changed-header {
     margin-top: 10px;
-    margin-left: 5px;
+    margin-left: 0px;
     width: 100%;
     text-align: left;
   }
@@ -229,15 +236,18 @@
   .pr-title {
     white-space: normal;
     overflow: hidden;
+    word-break: break-word;
     font-size: 15px;
   }
-  .pr-subtitile {
+  .pr-subtitle {
     font-size: 12px;
     margin-top: 3px;
   }
 
   .pr-down {
-    width: 93%;
-    margin-left: 7%;
+    width: 100%;
+    margin-left: 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
