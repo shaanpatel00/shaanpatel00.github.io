@@ -1,5 +1,29 @@
-{
-  "0": {
+[
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "efddfdb",
+    "message": "add GitHub Actions workflow to automate data fetching and site deployment",
+    "date": "2026-08-09T15:55:41Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/efddfdbc27b42962b75aba867f202b0890fad1be"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "45dde2e",
+    "message": "add error boundaries and improve data validation for open source components",
+    "date": "2026-08-09T15:46:51Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/45dde2e4c12d1437ccf7ca94f1fd72bf1c603497"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "881f642",
+    "message": "add GithubContributionCalendar and GithubCommitFeed components to opensource page",
+    "date": "2026-08-09T15:05:20Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/881f642f68c02a258d3b423334d2f34dbde06154"
+  },
+  {
     "repo": "shaanpatel00.github.io",
     "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
     "sha": "3c3c60a",
@@ -7,7 +31,7 @@
     "date": "2026-08-09T14:50:22Z",
     "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/3c3c60a5ddbb08cbaa78baec7c0bcb3994908f72"
   },
-  "1": {
+  {
     "repo": "shaanpatel00.github.io",
     "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
     "sha": "83d95f1",
@@ -15,31 +39,7 @@
     "date": "2026-08-09T14:43:48Z",
     "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/83d95f14aff51f59328e1f462d74f65701c1ebac"
   },
-  "2": {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "a5cbae7",
-    "message": "add leadership badges to degree cards, update education details, and remove resume spotlight section",
-    "date": "2026-08-09T13:55:18Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/a5cbae70a26f5a65d558092e94fa2972130c20a0"
-  },
-  "3": {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "abc8fb3",
-    "message": " add LocalServerImg component and integrate it into SkillSection rendering logic",
-    "date": "2026-08-09T01:07:19Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/abc8fb3ffe1ba2c43fb1ea355b1c0f0579b9fb9a"
-  },
-  "4": {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "a213f43",
-    "message": "Update software skill UI with aesthetic tooltips and standardized icon set",
-    "date": "2026-08-09T00:48:01Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/a213f43b1b1ba0567562ebeee1d5436d5e67a556"
-  },
-  "5": {
+  {
     "repo": "AeroCore-V",
     "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
     "sha": "fac6ec8",
@@ -47,7 +47,7 @@
     "date": "2026-08-06T23:05:08Z",
     "url": "https://github.com/shaanpatel00/AeroCore-V/commit/fac6ec8c6b898ac85decd9cbdbb2ed67fe64f00b"
   },
-  "6": {
+  {
     "repo": "AeroCore-V",
     "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
     "sha": "4884b14",
@@ -55,7 +55,7 @@
     "date": "2026-08-06T02:04:42Z",
     "url": "https://github.com/shaanpatel00/AeroCore-V/commit/4884b14e861d9a6f13c64e1449a7ccf4634a01c0"
   },
-  "7": {
+  {
     "repo": "AeroCore-V",
     "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
     "sha": "2f03444",
@@ -63,7 +63,7 @@
     "date": "2026-08-06T02:01:03Z",
     "url": "https://github.com/shaanpatel00/AeroCore-V/commit/2f0344467a89518ddf8c8c71c56c9559c3977e07"
   },
-  "8": {
+  {
     "repo": "AeroCore-V",
     "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
     "sha": "35334b7",
@@ -71,7 +71,7 @@
     "date": "2026-08-06T01:56:27Z",
     "url": "https://github.com/shaanpatel00/AeroCore-V/commit/35334b7e2bed8d0c3b059099bcf47e876fab3b01"
   },
-  "9": {
+  {
     "repo": "AeroCore-V",
     "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
     "sha": "68e6b82",
@@ -79,7 +79,7 @@
     "date": "2026-08-03T21:16:14Z",
     "url": "https://github.com/shaanpatel00/AeroCore-V/commit/68e6b824ba3f61369bacf553e54ea445e0c9f68e"
   },
-  "10": {
+  {
     "repo": "ESP32-Fiber-Optic-Star-Map",
     "repoUrl": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map",
     "sha": "7dd9fb8",
@@ -87,7 +87,7 @@
     "date": "2025-12-05T20:16:23Z",
     "url": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map/commit/7dd9fb8c7fff475ab19f064fb1ab7ae47614e39e"
   },
-  "11": {
+  {
     "repo": "ESP32-Fiber-Optic-Star-Map",
     "repoUrl": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map",
     "sha": "90acf3f",
@@ -95,7 +95,7 @@
     "date": "2025-12-05T20:07:27Z",
     "url": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map/commit/90acf3f2ff4871a32648b2cbe0a22735cb2c1c9a"
   },
-  "12": {
+  {
     "repo": "ESP32-Fiber-Optic-Star-Map",
     "repoUrl": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map",
     "sha": "ee2bde1",
@@ -103,7 +103,7 @@
     "date": "2025-12-05T20:04:42Z",
     "url": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map/commit/ee2bde1c4fd1c25d0b2024f4a4388552a67d398f"
   },
-  "13": {
+  {
     "repo": "ESP32-Fiber-Optic-Star-Map",
     "repoUrl": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map",
     "sha": "3d566b7",
@@ -111,7 +111,7 @@
     "date": "2025-12-05T19:24:35Z",
     "url": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map/commit/3d566b7e6ef6085988dbc8604b4d2e864bf0fbeb"
   },
-  "14": {
+  {
     "repo": "ESP32-Fiber-Optic-Star-Map",
     "repoUrl": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map",
     "sha": "217190e",
@@ -119,4 +119,4 @@
     "date": "2025-12-03T08:16:33Z",
     "url": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map/commit/217190ecd7835113d8a95678d7d683038a217f75"
   }
-}
+]
