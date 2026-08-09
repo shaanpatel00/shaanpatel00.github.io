@@ -3,7 +3,11 @@ import "./GithubCommitFeed.css";
 import recentCommitsData from "../../shared/opensource/recent_commits.json";
 
 const GithubCommitFeed = ({ theme }) => {
-  const commits = Array.isArray(recentCommitsData) ? recentCommitsData : [];
+  const commits = Array.isArray(recentCommitsData)
+    ? recentCommitsData
+    : recentCommitsData && typeof recentCommitsData === "object"
+    ? Object.values(recentCommitsData)
+    : [];
 
   if (commits.length === 0) {
     return null;
