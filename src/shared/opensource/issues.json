@@ -1,6 +1,98 @@
 {
-  "closed": 4,
+  "closed": 5,
   "data": [
+    {
+      "id": "I_kwDOOmHid88AAAABKP4FXg",
+      "closed": false,
+      "title": "feat: add \"Evolution\" tab — 3D globe visualization with a generation-by-generation progression slider showing bloodline migration",
+      "createdAt": "2026-07-26T21:54:56Z",
+      "url": "https://github.com/shailesh17/generations/issues/112",
+      "number": 112,
+      "assignees": {
+        "nodes": [
+          {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/88863843?u=c1eb0aee42391358900010a4d6ba808bdc2643e0&v=4",
+            "name": "Jaidan Patel",
+            "url": "https://github.com/jaidanp"
+          }
+        ]
+      },
+      "repository": {
+        "name": "generations",
+        "url": "https://github.com/shailesh17/generations",
+        "owner": {
+          "login": "shailesh17",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/106960?u=c50d5e04d2c46d33e6953c9553fd0893db5dd3ad&v=4",
+          "url": "https://github.com/shailesh17"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOOmHid88AAAABKOuEFg",
+      "closed": true,
+      "title": "feat: add a full birth-year dendrogram timeline visualization + state/origin pie chart under a new \"Timeline\" tab",
+      "createdAt": "2026-07-26T16:32:14Z",
+      "url": "https://github.com/shailesh17/generations/issues/107",
+      "number": 107,
+      "assignees": {
+        "nodes": [
+          {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/88863843?u=c1eb0aee42391358900010a4d6ba808bdc2643e0&v=4",
+            "name": "Jaidan Patel",
+            "url": "https://github.com/jaidanp"
+          }
+        ]
+      },
+      "repository": {
+        "name": "generations",
+        "url": "https://github.com/shailesh17/generations",
+        "owner": {
+          "login": "shailesh17",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/106960?u=c50d5e04d2c46d33e6953c9553fd0893db5dd3ad&v=4",
+          "url": "https://github.com/shailesh17"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOKjb5Hs8AAAABEyZtbA",
+      "closed": false,
+      "title": "Card Reorganization",
+      "createdAt": "2026-06-08T20:07:51Z",
+      "url": "https://github.com/kpatell/reds/issues/29",
+      "number": 29,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "reds",
+        "url": "https://github.com/kpatell/reds",
+        "owner": {
+          "login": "kpatell",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/14854009?u=88a2f02a38fe08bdaa9281ad400a059d74243440&v=4",
+          "url": "https://github.com/kpatell"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOKjb5Hs8AAAABEyXA-g",
+      "closed": false,
+      "title": "Continuous refresh",
+      "createdAt": "2026-06-08T20:01:34Z",
+      "url": "https://github.com/kpatell/reds/issues/28",
+      "number": 28,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "reds",
+        "url": "https://github.com/kpatell/reds",
+        "owner": {
+          "login": "kpatell",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/14854009?u=88a2f02a38fe08bdaa9281ad400a059d74243440&v=4",
+          "url": "https://github.com/kpatell"
+        }
+      }
+    },
     {
       "id": "I_kwDOLwh1E86ddil5",
       "closed": true,
@@ -158,6 +250,6 @@
       }
     }
   ],
-  "open": 2,
-  "totalCount": 6
+  "open": 5,
+  "totalCount": 10
 }

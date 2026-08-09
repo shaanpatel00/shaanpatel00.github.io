@@ -309,17 +309,45 @@ async function fetchAndProcessPinnedProjects() {
   }
 }
 
-async function main() {
-  if (!openSource.githubConvertedToken || !openSource.githubUserName) {
-    console.error(
-      "Error: GITHUB_TOKEN and GITHUB_USERNAME environment variables are not set."
-    );
-    console.error(
-      "Please create a .env file in the root directory with these values."
-    );
-    return;
+async function fetchAndProcessExperienceLanguages() {
+  console.log("Fetching Experience Repository Languages...");
+  const repos = [
+    "shaanpatel00/AeroCore-V",
+    "shaanpatel00/ESP32-Fiber-Optic-Star-Map",
+  ];
+
+  const repoLanguages = {};
+
+  for (const repo of repos) {
+    try {
+      const res = await fetch(`https://api.github.com/repos/${repo}/languages`, {
+        headers: openSource.githubConvertedToken
+          ? { Authorization: `token ${openSource.githubConvertedToken}`, "User-Agent": "node" }
+          : { "User-Agent": "node" },
+      });
+      if (res.ok) {
+        const data = await res.json();
+        repoLanguages[repo] = data;
+      } else {
+        console.error(`HTTP error ${res.status} fetching languages for ${repo}`);
+      }
+    } catch (err) {
+      console.error(`Failed to fetch languages for ${repo}:`, err);
+    }
   }
 
+  try {
+    await fs.writeFile(
+      "./src/shared/opensource/experience_languages.json",
+      JSON.stringify(repoLanguages, null, 2)
+    );
+    console.log("experience_languages.json successfully written.\n");
+  } catch (err) {
+    console.error("Error writing experience_languages.json:", err);
+  }
+}
+
+async function main() {
   try {
     await fs.mkdir("./src/shared/opensource", { recursive: true });
   } catch (err) {
@@ -332,6 +360,7 @@ async function main() {
     fetchAndProcessIssues(),
     fetchAndProcessOrgs(),
     fetchAndProcessPinnedProjects(),
+    fetchAndProcessExperienceLanguages(),
   ]);
 }
 

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./ExperienceCard.css";
 import { Fade } from "react-reveal";
+import GithubLanguageGraph from "../githubLanguageGraph/GithubLanguageGraph";
 
 class ExperienceCard extends Component {
   render() {
@@ -172,44 +173,12 @@ class ExperienceCard extends Component {
                 ))}
               </div>
 
-              {/* Technology Icons ONLY for projects with GitHub Links */}
-              {isGithub && experience["softwareSkills"] && (
-                <div
-                  className="experience-card-tech-stack"
-                  style={{
-                    display: "flex",
-                    justifyContent: "flex-end",
-                    gap: "8px",
-                    marginTop: "16px",
-                    flexWrap: "wrap",
-                  }}
-                >
-                  {experience["softwareSkills"].map((logo, i) => (
-                    <span
-                      key={i}
-                      className="software-skill-inline"
-                      title={logo.skillName}
-                      style={{
-                        display: "inline-flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        width: "36px",
-                        height: "36px",
-                        borderRadius: "8px",
-                        background: "rgba(0,0,0,0.035)",
-                        border: "1px solid rgba(0,0,0,0.06)",
-                        margin: 0,
-                      }}
-                    >
-                      <span
-                        className="iconify"
-                        data-icon={logo.fontAwesomeClassname}
-                        style={logo.style || {}}
-                        data-inline="false"
-                      ></span>
-                    </span>
-                  ))}
-                </div>
+              {/* Replicated GitHub Code Graph Component */}
+              {isGithub && (
+                <GithubLanguageGraph
+                  repoUrl={experience["company_url"]}
+                  theme={theme}
+                />
               )}
             </div>
           </div>

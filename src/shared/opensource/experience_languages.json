@@ -1,0 +1,17 @@
+{
+  "shaanpatel00/AeroCore-V": {
+    "C++": 199385,
+    "SystemVerilog": 44403,
+    "Makefile": 11855,
+    "C": 10744,
+    "Assembly": 4690,
+    "Python": 1807,
+    "Tcl": 1567,
+    "Shell": 1317,
+    "Linker Script": 1160,
+    "CMake": 389
+  },
+  "shaanpatel00/ESP32-Fiber-Optic-Star-Map": {
+    "C++": 14429
+  }
+}
