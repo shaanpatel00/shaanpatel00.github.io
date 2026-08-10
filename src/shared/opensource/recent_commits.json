@@ -1,5 +1,21 @@
 [
   {
+    "repo": "AeroCore-V",
+    "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
+    "sha": "813e0f2",
+    "message": "Add CSR write enable signal and update opcode for system instructions",
+    "date": "2026-08-09T21:14:25Z",
+    "url": "https://github.com/shaanpatel00/AeroCore-V/commit/813e0f2336475116ceeab57a828366df9baee9f2"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "ea068b3",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-08-09T17:13:43Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/ea068b3cd324b1aa53b611e6a7513a9e580dafc2"
+  },
+  {
     "repo": "shaanpatel00.github.io",
     "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
     "sha": "a41acfd",
@@ -32,14 +48,6 @@
     "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/33b94d179c40e6b12200b4870a204cac7295ec16"
   },
   {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "46b723a",
-    "message": "update LoaderLogo SVG paths to use React-compliant attribute naming and add stroke styling properties",
-    "date": "2026-08-09T16:26:11Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/46b723ae027bf52d9fcb00605ecf6ca0f864d4d2"
-  },
-  {
     "repo": "AeroCore-V",
     "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
     "sha": "fac6ec8",
@@ -70,14 +78,6 @@
     "message": "Refactor L2 controller and SOC top module to implement L2 memory interface; update memory access logic and valid bit handling",
     "date": "2026-08-06T01:56:27Z",
     "url": "https://github.com/shaanpatel00/AeroCore-V/commit/35334b7e2bed8d0c3b059099bcf47e876fab3b01"
-  },
-  {
-    "repo": "AeroCore-V",
-    "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
-    "sha": "68e6b82",
-    "message": "Update Verilator configuration to use VERILATOR_INCLUDE variable for include paths and adjust Makefile for consistent usage",
-    "date": "2026-08-03T21:16:14Z",
-    "url": "https://github.com/shaanpatel00/AeroCore-V/commit/68e6b824ba3f61369bacf553e54ea445e0c9f68e"
   },
   {
     "repo": "ESP32-Fiber-Optic-Star-Map",
