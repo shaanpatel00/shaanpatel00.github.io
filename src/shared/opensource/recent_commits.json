@@ -1,5 +1,13 @@
 [
   {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "949c414",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-08-10T02:08:01Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/949c4144fbf8d44eb25bedc878d83d47697c0701"
+  },
+  {
     "repo": "AeroCore-V",
     "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
     "sha": "813e0f2",
@@ -38,14 +46,6 @@
     "message": "optimize responsive design and mobile layout across all portfolio components and styling.",
     "date": "2026-08-09T17:05:35Z",
     "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/e9c511626cbad2e067231594417c7ca89920c88a"
-  },
-  {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "33b94d1",
-    "message": "auto: update GitHub open source data files",
-    "date": "2026-08-09T16:26:56Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/33b94d179c40e6b12200b4870a204cac7295ec16"
   },
   {
     "repo": "AeroCore-V",

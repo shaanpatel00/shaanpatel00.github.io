@@ -1,6 +1,26 @@
 {
   "data": [
     {
+      "id": "I_kwDOQ_8KV88AAAABMO3ITw",
+      "closed": false,
+      "title": "Implement Sv32 paging: CSR file, TLB/PTW wiring, and page-table walk",
+      "createdAt": "2026-08-11T01:42:28Z",
+      "url": "https://github.com/shaanpatel00/AeroCore-V/issues/1",
+      "number": 1,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "AeroCore-V",
+        "url": "https://github.com/shaanpatel00/AeroCore-V",
+        "owner": {
+          "login": "shaanpatel00",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/18252427?u=54b61610c950ec1250ce158f96276b5f3368e33e&v=4",
+          "url": "https://github.com/shaanpatel00"
+        }
+      }
+    },
+    {
       "id": "I_kwDOOmHid88AAAABKP4FXg",
       "closed": false,
       "title": "feat: add \"Evolution\" tab — 3D globe visualization with a generation-by-generation progression slider showing bloodline migration",
@@ -249,7 +269,7 @@
       }
     }
   ],
-  "open": 4,
+  "open": 5,
   "closed": 6,
-  "totalCount": 10
+  "totalCount": 11
 }
