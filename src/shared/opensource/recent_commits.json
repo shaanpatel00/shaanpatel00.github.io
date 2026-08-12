@@ -2,6 +2,22 @@
   {
     "repo": "shaanpatel00.github.io",
     "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "641bb30",
+    "message": "chore: Automate resume update and archive previous version",
+    "date": "2026-08-12T15:37:49Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/641bb309b25f03c275202a8ff0d724ad04ce7601"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "339487d",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-08-12T15:27:39Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/339487dac31b74c441f3dbf05d47e7c24aadf9be"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
     "sha": "e2225f3",
     "message": "chore: Automate resume update and archive previous version",
     "date": "2026-08-12T15:26:47Z",
@@ -24,28 +40,12 @@
     "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/f72e12dd7069be3131e8c0097f0acc230aa0ed3b"
   },
   {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "949c414",
-    "message": "auto: update GitHub open source data files",
-    "date": "2026-08-10T02:08:01Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/949c4144fbf8d44eb25bedc878d83d47697c0701"
-  },
-  {
     "repo": "AeroCore-V",
     "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
     "sha": "813e0f2",
     "message": "Add CSR write enable signal and update opcode for system instructions",
     "date": "2026-08-09T21:14:25Z",
     "url": "https://github.com/shaanpatel00/AeroCore-V/commit/813e0f2336475116ceeab57a828366df9baee9f2"
-  },
-  {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "ea068b3",
-    "message": "auto: update GitHub open source data files",
-    "date": "2026-08-09T17:13:43Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/ea068b3cd324b1aa53b611e6a7513a9e580dafc2"
   },
   {
     "repo": "AeroCore-V",
