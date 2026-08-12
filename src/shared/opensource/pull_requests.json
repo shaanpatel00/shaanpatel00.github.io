@@ -1,6 +1,31 @@
 {
   "data": [
     {
+      "id": "PR_kwDORtS01M7-IYw5",
+      "title": "RTL, SoC, UVM, Verification, DRAM resume version - any term",
+      "url": "https://github.com/shaanpatel00/LaTeX-resume/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18252427?u=54b61610c950ec1250ce158f96276b5f3368e33e&v=4",
+        "url": "https://github.com/shaanpatel00",
+        "login": "shaanpatel00"
+      },
+      "createdAt": "2026-08-12T15:22:37Z",
+      "number": 1,
+      "changedFiles": 8,
+      "additions": 30,
+      "deletions": 22,
+      "baseRepository": {
+        "name": "LaTeX-resume",
+        "url": "https://github.com/shaanpatel00/LaTeX-resume",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/18252427?u=54b61610c950ec1250ce158f96276b5f3368e33e&v=4",
+          "login": "shaanpatel00",
+          "url": "https://github.com/shaanpatel00"
+        }
+      }
+    },
+    {
       "id": "PR_kwDOO42RR86b8PAk",
       "title": "RGB-LED-Holder v1 PCB Design Files",
       "url": "https://github.com/shaanpatel00/fiber-optic-display-ESP8266/pull/1",
@@ -608,6 +633,6 @@
   ],
   "open": 1,
   "closed": 4,
-  "merged": 20,
-  "totalCount": 25
+  "merged": 21,
+  "totalCount": 26
 }
