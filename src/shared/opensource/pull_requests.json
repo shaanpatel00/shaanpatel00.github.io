@@ -1,6 +1,31 @@
 {
   "data": [
     {
+      "id": "PR_kwDORtS01M7-tRf4",
+      "title": "PCB layout, RTL, Hardware, Firmware, Embedded, Test Engineer resume version - any term",
+      "url": "https://github.com/shaanpatel00/LaTeX-resume/pull/2",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18252427?u=54b61610c950ec1250ce158f96276b5f3368e33e&v=4",
+        "url": "https://github.com/shaanpatel00",
+        "login": "shaanpatel00"
+      },
+      "createdAt": "2026-08-13T17:09:57Z",
+      "number": 2,
+      "changedFiles": 2,
+      "additions": 15,
+      "deletions": 15,
+      "baseRepository": {
+        "name": "LaTeX-resume",
+        "url": "https://github.com/shaanpatel00/LaTeX-resume",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/18252427?u=54b61610c950ec1250ce158f96276b5f3368e33e&v=4",
+          "login": "shaanpatel00",
+          "url": "https://github.com/shaanpatel00"
+        }
+      }
+    },
+    {
       "id": "PR_kwDORtS01M7-IYw5",
       "title": "RTL, SoC, UVM, Verification, DRAM resume version - any term",
       "url": "https://github.com/shaanpatel00/LaTeX-resume/pull/1",
@@ -633,6 +658,6 @@
   ],
   "open": 1,
   "closed": 4,
-  "merged": 21,
-  "totalCount": 26
+  "merged": 22,
+  "totalCount": 27
 }
