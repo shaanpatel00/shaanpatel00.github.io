@@ -1,11 +1,59 @@
 [
   {
+    "repo": "AeroCore-V",
+    "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
+    "sha": "e10c401",
+    "message": "Add debug output for dcache request in soc_top and update testbench to fix CI/CD pipeline failure.",
+    "date": "2026-08-13T22:09:01Z",
+    "url": "https://github.com/shaanpatel00/AeroCore-V/commit/e10c40140b0f0d1aa6d14c1ece44297776a4ea8e"
+  },
+  {
+    "repo": "AeroCore-V",
+    "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
+    "sha": "a26773e",
+    "message": "Merge pull request #2 from shaanpatel00/feature/sv32-paging\n\nCSR file + CSRRW decode implemented\nTLB + PTW wired into the data path\nReal 2-level Sv32 page-table walk verified end-to-end\nptw.sv leaf-PTE level-selection bug fixed\nl2_controller.sv stale-write-enable bug (silently dropped every cache-hit write-through to backing memory) fixed\nBoth pre-existing regressions still pass",
+    "date": "2026-08-13T21:40:06Z",
+    "url": "https://github.com/shaanpatel00/AeroCore-V/commit/a26773edd1555c89120432eb77953fd27b2a3b7e"
+  },
+  {
+    "repo": "AeroCore-V",
+    "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
+    "sha": "e6a5d46",
+    "message": "Latch L1 write enable signal to prevent stale reads during cache checks",
+    "date": "2026-08-13T21:37:05Z",
+    "url": "https://github.com/shaanpatel00/AeroCore-V/commit/e6a5d46306d90840fab78ad9bf761f0f6256b898"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "b1432d3",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-08-13T17:11:09Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/b1432d339c1a9582b946a096f0a81aac5e7a1dcf"
+  },
+  {
     "repo": "shaanpatel00.github.io",
     "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
     "sha": "53625ef",
     "message": "chore: Automate resume update and archive previous version",
     "date": "2026-08-13T17:10:37Z",
     "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/53625ef4f279cd98f6b539785535b435aa7ed1e9"
+  },
+  {
+    "repo": "AeroCore-V",
+    "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
+    "sha": "c3e63e8",
+    "message": "Add end-to-end Sv32 paging integration test",
+    "date": "2026-08-13T15:34:44Z",
+    "url": "https://github.com/shaanpatel00/AeroCore-V/commit/c3e63e8942009ea0f6aa30e738b615c00bed5271"
+  },
+  {
+    "repo": "AeroCore-V",
+    "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
+    "sha": "47daada",
+    "message": "Update Verilator testbench and run script for MMU verification",
+    "date": "2026-08-13T15:34:14Z",
+    "url": "https://github.com/shaanpatel00/AeroCore-V/commit/47daadab4601a6432c9fceded3460bb015a60984"
   },
   {
     "repo": "shaanpatel00.github.io",
@@ -30,54 +78,6 @@
     "message": "chore: Automate resume update and archive previous version",
     "date": "2026-08-12T15:40:46Z",
     "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/1d8e909e6b47ec56007ea9b9c7c3429ebec53358"
-  },
-  {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "0740e77",
-    "message": "auto: update GitHub open source data files",
-    "date": "2026-08-12T15:38:30Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/0740e7740939bc852372f8e492dd1b879f165ddb"
-  },
-  {
-    "repo": "AeroCore-V",
-    "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
-    "sha": "813e0f2",
-    "message": "Add CSR write enable signal and update opcode for system instructions",
-    "date": "2026-08-09T21:14:25Z",
-    "url": "https://github.com/shaanpatel00/AeroCore-V/commit/813e0f2336475116ceeab57a828366df9baee9f2"
-  },
-  {
-    "repo": "AeroCore-V",
-    "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
-    "sha": "fac6ec8",
-    "message": "Increase maximum cycle limit in main simulation to 100 million",
-    "date": "2026-08-06T23:05:08Z",
-    "url": "https://github.com/shaanpatel00/AeroCore-V/commit/fac6ec8c6b898ac85decd9cbdbb2ed67fe64f00b"
-  },
-  {
-    "repo": "AeroCore-V",
-    "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
-    "sha": "4884b14",
-    "message": "Remove verbose debug cycle tracking from riscv_core module",
-    "date": "2026-08-06T02:04:42Z",
-    "url": "https://github.com/shaanpatel00/AeroCore-V/commit/4884b14e861d9a6f13c64e1449a7ccf4634a01c0"
-  },
-  {
-    "repo": "AeroCore-V",
-    "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
-    "sha": "2f03444",
-    "message": "Latest run of Verilator run_test with L2 cache implemented to reflect recent changes",
-    "date": "2026-08-06T02:01:03Z",
-    "url": "https://github.com/shaanpatel00/AeroCore-V/commit/2f0344467a89518ddf8c8c71c56c9559c3977e07"
-  },
-  {
-    "repo": "AeroCore-V",
-    "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
-    "sha": "35334b7",
-    "message": "Refactor L2 controller and SOC top module to implement L2 memory interface; update memory access logic and valid bit handling",
-    "date": "2026-08-06T01:56:27Z",
-    "url": "https://github.com/shaanpatel00/AeroCore-V/commit/35334b7e2bed8d0c3b059099bcf47e876fab3b01"
   },
   {
     "repo": "ESP32-Fiber-Optic-Star-Map",

@@ -1,6 +1,31 @@
 {
   "data": [
     {
+      "id": "PR_kwDOQ_8KV87-0UYs",
+      "title": "Feature/sv32 paging",
+      "url": "https://github.com/shaanpatel00/AeroCore-V/pull/2",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18252427?u=54b61610c950ec1250ce158f96276b5f3368e33e&v=4",
+        "url": "https://github.com/shaanpatel00",
+        "login": "shaanpatel00"
+      },
+      "createdAt": "2026-08-13T21:39:17Z",
+      "number": 2,
+      "changedFiles": 9,
+      "additions": 413,
+      "deletions": 22,
+      "baseRepository": {
+        "name": "AeroCore-V",
+        "url": "https://github.com/shaanpatel00/AeroCore-V",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/18252427?u=54b61610c950ec1250ce158f96276b5f3368e33e&v=4",
+          "login": "shaanpatel00",
+          "url": "https://github.com/shaanpatel00"
+        }
+      }
+    },
+    {
       "id": "PR_kwDORtS01M7-tRf4",
       "title": "PCB layout, RTL, Hardware, Firmware, Embedded, Test Engineer resume version - any term",
       "url": "https://github.com/shaanpatel00/LaTeX-resume/pull/2",
@@ -658,6 +683,6 @@
   ],
   "open": 1,
   "closed": 4,
-  "merged": 22,
-  "totalCount": 27
+  "merged": 23,
+  "totalCount": 28
 }

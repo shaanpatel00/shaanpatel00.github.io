@@ -1,10 +1,10 @@
 {
   "shaanpatel00/AeroCore-V": {
-    "C++": 199385,
-    "SystemVerilog": 45101,
+    "C++": 199368,
+    "SystemVerilog": 52089,
     "Makefile": 11855,
     "C": 10744,
-    "Assembly": 4690,
+    "Assembly": 6163,
     "Python": 1807,
     "Tcl": 1567,
     "Shell": 1317,
