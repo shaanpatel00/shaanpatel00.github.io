@@ -1,5 +1,13 @@
 [
   {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "c22c9b5",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-08-14T02:19:35Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/c22c9b531e52f2aa3651015839be7719ae5712b6"
+  },
+  {
     "repo": "AeroCore-V",
     "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
     "sha": "e10c401",
@@ -70,14 +78,6 @@
     "message": "auto: update GitHub open source data files",
     "date": "2026-08-12T15:41:23Z",
     "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/5369d9a330a7616575e243a8b6e3534c5275be19"
-  },
-  {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "1d8e909",
-    "message": "chore: Automate resume update and archive previous version",
-    "date": "2026-08-12T15:40:46Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/1d8e909e6b47ec56007ea9b9c7c3429ebec53358"
   },
   {
     "repo": "ESP32-Fiber-Optic-Star-Map",
