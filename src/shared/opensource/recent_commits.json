@@ -1,5 +1,21 @@
 [
   {
+    "repo": "AeroCore-V",
+    "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
+    "sha": "6710fd2",
+    "message": "Implement Sv32 paging initialization and update kernel build process",
+    "date": "2026-08-15T14:54:51Z",
+    "url": "https://github.com/shaanpatel00/AeroCore-V/commit/6710fd24568cc60f33706ae7e3d3b70166de3a4c"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "91b4cc4",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-08-15T01:27:16Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/91b4cc40423fe8ed0f970c9dfa5d31d32c065665"
+  },
+  {
     "repo": "shaanpatel00.github.io",
     "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
     "sha": "c22c9b5",
@@ -56,28 +72,12 @@
     "url": "https://github.com/shaanpatel00/AeroCore-V/commit/c3e63e8942009ea0f6aa30e738b615c00bed5271"
   },
   {
-    "repo": "AeroCore-V",
-    "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
-    "sha": "47daada",
-    "message": "Update Verilator testbench and run script for MMU verification",
-    "date": "2026-08-13T15:34:14Z",
-    "url": "https://github.com/shaanpatel00/AeroCore-V/commit/47daadab4601a6432c9fceded3460bb015a60984"
-  },
-  {
     "repo": "shaanpatel00.github.io",
     "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
     "sha": "cbfce4b",
     "message": "auto: update GitHub open source data files",
     "date": "2026-08-13T02:21:57Z",
     "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/cbfce4bbfadc1af003ec5b88fa0a53313768cca9"
-  },
-  {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "5369d9a",
-    "message": "auto: update GitHub open source data files",
-    "date": "2026-08-12T15:41:23Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/5369d9a330a7616575e243a8b6e3534c5275be19"
   },
   {
     "repo": "ESP32-Fiber-Optic-Star-Map",
