@@ -1,3 +1,9 @@
 {
-  "data": []
+  "data": [
+    {
+      "login": "partcleda",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/190648897?v=4",
+      "__typename": "Organization"
+    }
+  ]
 }
