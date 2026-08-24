@@ -2,6 +2,22 @@
   {
     "repo": "shaanpatel00.github.io",
     "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "cc683f7",
+    "message": "chore: Automate resume update and archive previous version",
+    "date": "2026-08-24T14:12:49Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/cc683f75d9e6249cb752c16b3da1c8c4d0c4a513"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "db407f3",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-08-24T14:12:34Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/db407f3f0bbbf1c2b12d732050bd2a7b005a3e65"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
     "sha": "54142ca",
     "message": "chore: Automate resume update and archive previous version",
     "date": "2026-08-24T14:11:51Z",
@@ -22,22 +38,6 @@
     "message": "auto: update GitHub open source data files",
     "date": "2026-08-23T01:40:56Z",
     "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/40a5adbb3ed6fe710f9463de4ea31495cf944cef"
-  },
-  {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "944839a",
-    "message": "auto: update GitHub open source data files",
-    "date": "2026-08-22T01:26:38Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/944839ae2b77660daf8781f1c8edd23f797a20a8"
-  },
-  {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "4ec6016",
-    "message": "auto: update GitHub open source data files",
-    "date": "2026-08-21T01:38:23Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/4ec60162b9add0238c2458050c612bc580a64cf2"
   },
   {
     "repo": "AeroCore-V",
