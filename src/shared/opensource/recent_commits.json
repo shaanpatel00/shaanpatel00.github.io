@@ -2,6 +2,22 @@
   {
     "repo": "shaanpatel00.github.io",
     "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "9b1a0fe",
+    "message": "add custom aesthetic tooltips to competitive sites and clean up unused LinkedIn CSS icons",
+    "date": "2026-08-24T18:26:01Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/9b1a0fe67aadbc78c4e6df29f69aea082aeba20c"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "d2d9eb9",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-08-24T14:14:57Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/d2d9eb93456f445d31724bdb4311e030cc0e38e1"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
     "sha": "efde402",
     "message": "chore: Automate resume update and archive previous version",
     "date": "2026-08-24T14:14:00Z",
@@ -22,22 +38,6 @@
     "message": "chore: Automate resume update and archive previous version",
     "date": "2026-08-24T14:12:49Z",
     "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/cc683f75d9e6249cb752c16b3da1c8c4d0c4a513"
-  },
-  {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "db407f3",
-    "message": "auto: update GitHub open source data files",
-    "date": "2026-08-24T14:12:34Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/db407f3f0bbbf1c2b12d732050bd2a7b005a3e65"
-  },
-  {
-    "repo": "shaanpatel00.github.io",
-    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
-    "sha": "54142ca",
-    "message": "chore: Automate resume update and archive previous version",
-    "date": "2026-08-24T14:11:51Z",
-    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/54142ca3ef803e592f29c1964a3ae8f5bd61fa5b"
   },
   {
     "repo": "AeroCore-V",
