@@ -1,5 +1,45 @@
 [
   {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "c801ced",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-10-20T04:14:24Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/c801ced21fe197ea33bc3bf98140662b8deabde8"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "ec1d69e",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-10-19T04:01:45Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/ec1d69ee9493c76f245c8ea41175db2377db4938"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "279e7be",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-10-18T03:52:39Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/279e7be023eaf70c3732692c21d2e48128a23f11"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "08cd7a4",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-10-17T03:46:01Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/08cd7a4c6c4bc44eae5dd499cb387b2ef285c986"
+  },
+  {
+    "repo": "shaanpatel00.github.io",
+    "repoUrl": "https://github.com/shaanpatel00/shaanpatel00.github.io",
+    "sha": "13c9416",
+    "message": "auto: update GitHub open source data files",
+    "date": "2026-10-16T03:56:18Z",
+    "url": "https://github.com/shaanpatel00/shaanpatel00.github.io/commit/13c941656ae7553e9eef9a4015b9c25d861288d6"
+  },
+  {
     "repo": "AeroCore-V",
     "repoUrl": "https://github.com/shaanpatel00/AeroCore-V",
     "sha": "6710fd2",
@@ -38,5 +78,45 @@
     "message": "Add end-to-end Sv32 paging integration test",
     "date": "2026-08-13T15:34:44Z",
     "url": "https://github.com/shaanpatel00/AeroCore-V/commit/c3e63e8942009ea0f6aa30e738b615c00bed5271"
+  },
+  {
+    "repo": "ESP32-Fiber-Optic-Star-Map",
+    "repoUrl": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map",
+    "sha": "7dd9fb8",
+    "message": "Fix grammar and formatting issues in README",
+    "date": "2025-12-05T20:16:23Z",
+    "url": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map/commit/7dd9fb8c7fff475ab19f064fb1ab7ae47614e39e"
+  },
+  {
+    "repo": "ESP32-Fiber-Optic-Star-Map",
+    "repoUrl": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map",
+    "sha": "90acf3f",
+    "message": "Update README with placeholder WiFi credentials for user customization",
+    "date": "2025-12-05T20:07:27Z",
+    "url": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map/commit/90acf3f2ff4871a32648b2cbe0a22735cb2c1c9a"
+  },
+  {
+    "repo": "ESP32-Fiber-Optic-Star-Map",
+    "repoUrl": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map",
+    "sha": "ee2bde1",
+    "message": "Add main functionality for ESP32 Multi-Group LED Controller; implement WiFi and NVM handling, GPIO configuration, and web interface. Update README with hardware assembly details and add new images.",
+    "date": "2025-12-05T20:04:42Z",
+    "url": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map/commit/ee2bde1c4fd1c25d0b2024f4a4388552a67d398f"
+  },
+  {
+    "repo": "ESP32-Fiber-Optic-Star-Map",
+    "repoUrl": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map",
+    "sha": "3d566b7",
+    "message": "Update README with additional tools and detailed casing design; add new images for central controller and ARGB LED holder",
+    "date": "2025-12-05T19:24:35Z",
+    "url": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map/commit/3d566b7e6ef6085988dbc8604b4d2e864bf0fbeb"
+  },
+  {
+    "repo": "ESP32-Fiber-Optic-Star-Map",
+    "repoUrl": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map",
+    "sha": "217190e",
+    "message": "Add images of breadboard circuit and star charts to README",
+    "date": "2025-12-03T08:16:33Z",
+    "url": "https://github.com/shaanpatel00/ESP32-Fiber-Optic-Star-Map/commit/217190ecd7835113d8a95678d7d683038a217f75"
   }
 ]
